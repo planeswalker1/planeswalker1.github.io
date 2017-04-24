@@ -1,5 +1,6 @@
-html, body{
-    height: 100%;
+html, body {
+  height: 100%;
+  width:100%;
 }
 
 html {
@@ -9,19 +10,15 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
-/*container*/
+/*container styles*/
 #container {
   background: #eee;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
 }
 
-/*header*/
+/*header styles*/
 header h1 {
   font-size: 3em;
   color: #111;
@@ -29,11 +26,23 @@ header h1 {
   padding: 20px;
 }
 
-/*nav*/
+/*nav styles*/
 nav {
   background: #111;
 }
 
+nav a {
+  color: #eee;
+}
+
+/*purple hover effect*/
+nav a:hover, h2.contact a:hover, footer a:hover {
+  color: #5D1A97;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/*hover effect delay*/
 nav a, ul.projects a, h2.contact a, footer a {
   text-decoration: none;
   transition: all 0.3s;
@@ -41,17 +50,8 @@ nav a, ul.projects a, h2.contact a, footer a {
   -moz-transition: all 0.3s;
 }
 
-nav a:hover, h2.contact a:hover, footer a:hover {
-  color: #5D1A97;
-  cursor: pointer;
-  cursor: hand;
-}
 
-nav a {
-  color: #eee;
-}
-
-
+/*flex styles*/
 nav ul, ul.projects, ul.projects li, ul.tools, footer {
   display: flex;
   display: -webkit-box;
@@ -78,13 +78,14 @@ nav li {
   text-transform: capitalize;
 }
 
-/*projects list*/
+/*projects list styles*/
 ul.projects {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+/*background image styles*/
 ul.projects li.first-page {
   background: url("images/first-page.png") no-repeat center;
   background-size: 80%;
@@ -112,6 +113,7 @@ ul.projects li.to-do-list {
   margin: auto;
 }
 
+/*link box styles*/
 ul.projects a {
   background: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
@@ -131,7 +133,8 @@ ul.projects a:hover {
   cursor: hand;
 }
 
-/*tools list*/
+/*tools list styles*/
+/*background picture of la skyline styles*/
 ul.tools {
   background: url("images/bg.jpg");
   background-attachment: fixed;
@@ -142,6 +145,7 @@ ul.tools {
   margin: 0;
 }
 
+/*background pictures of html css javascript*/
  ul.tools li {
    text-indent: -10000px;
    height: 200px;
@@ -175,8 +179,7 @@ h2.contact a {
   color: #eee;
 }
 
-/*footer*/
-
+/*footer styles*/
 footer {
   background: #eee;
   justify-content: flex-end;
