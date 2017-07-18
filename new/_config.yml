@@ -1,0 +1,2 @@
+baseurl: new
+exclude: ["README.md"]
