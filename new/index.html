@@ -8,3 +8,11 @@ layout: default
     <h2>I Make Responsive Websites</h12>
   </div>
 </header>
+<main>
+  <div class="list-container">
+    <ul id= "list-1" class="projects">
+      {% for project in site.data.listData %}
+        <li class="{{project.class}}"><a href="{{project.source}}">{{project.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </main>
