@@ -15,4 +15,12 @@ layout: default
         <li class="{{project.class}}"><a href="{{project.source}}">{{project.title}}</a></li>
       {% endfor %}
     </ul>
+
+    <ul id= "list-2" class="projects">
+      {% for project in site.data.listTwoData %}
+        <li class="{{project.class}}"><a href="{{project.source}}">{{project.title}}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
   </main>
