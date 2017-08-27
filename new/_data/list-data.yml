@@ -1,0 +1,14 @@
+-
+  class: firstPage
+  source: https://planeswalker1.github.io/The-Basics
+  title: First Page
+
+-
+  class: colorGame
+  source: https://planeswalker1.github.io/The-Great-Color-Guessing-Game
+  title: Color Game
+
+-
+  class: toDoList
+  source: https://planeswalker1.github.io/to-do-list
+  title: To Do List
