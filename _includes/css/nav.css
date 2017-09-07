@@ -1,0 +1,102 @@
+nav {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1{
+  margin-left: 5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+nav .nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  width: 40%;
+}
+
+nav .show {
+  display: none;
+}
+
+/*responsive nav*/
+div.responsive {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35%;
+  height: 100%;
+  transform: translateX(100%);
+  transition: transform 0.6s ease;
+}
+
+div.responsive p {
+  align-self: flex-end;
+  cursor: pointer;
+  margin: 3% 5%;
+  padding: 3%;
+}
+
+div.responsive ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.responsive ul li {
+  font-size: 1.5em;
+  margin: 15% auto;
+  text-align: center;
+}
+
+div.responsive ul li a {
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+}
+
+p.responsive-open:hover, div.responsive a:hover, nav a:hover, p#show:hover {
+  color: green;
+}
+
+/*.button:link {
+  color: blue;
+  text-decoration: none;
+}
+
+.button:visited {
+  color: purple;
+}*/
+
+/*.button:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.button:visited:hover {
+  color: orange;
+}
+
+.button:active {
+  color: red;
+}*/
+
+/*.button:visited:active {
+  color: red;
+}*/
+
+.responsive.responsive-nav {
+  transform: translateX(0);
+}
