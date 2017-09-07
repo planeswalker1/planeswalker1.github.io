@@ -1,0 +1,10 @@
+---
+---
+
+{% include css/main.css %}
+{% include css/header.css %}
+{% include css/nav.css %}
+{% include css/skills.css %}
+{% include css/projects.css %}
+{% include css/footer.css %}
+{% include css/media.css %}
