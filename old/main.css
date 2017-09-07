@@ -1,0 +1,196 @@
+html, body {
+  height: 100%;
+  width:100%;
+}
+
+html {
+  background: #eee;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+/*container styles*/
+#container {
+  background: #eee;
+}
+
+/*header styles*/
+header h1 {
+  font-size: 3em;
+  color: #111;
+  margin: 0;
+  padding: 20px;
+}
+
+/*nav styles*/
+nav {
+  background: #111;
+}
+
+nav a {
+  color: #eee;
+}
+
+/*purple hover effect*/
+nav a:hover, h2.contact a:hover, footer a:hover {
+  color: #5D1A97;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/*hover effect delay*/
+nav a, ul.projects a, h2.contact a, footer a {
+  text-decoration: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+
+
+/*flex styles*/
+nav ul, ul.projects, ul.projects li, ul.tools, footer {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+
+nav ul {
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-weight: bold;
+  font-size: 1em;
+  color: #eee;
+  list-style-type: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*projects list styles*/
+ul.projects {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*background image styles*/
+ul.projects li.first-page {
+  background: url("images/first-page.png") no-repeat center;
+  background-size: 80%;
+  justify-content: space-between;
+  min-height: 300px;
+  min-width: 300px;
+  margin: auto;
+}
+
+ul.projects li.color-game {
+  background: url("images/color-game.png") no-repeat center;
+  background-size: 80%;
+  justify-content: space-between;
+  min-height: 300px;
+  min-width: 300px;
+  margin: auto;
+}
+
+ul.projects li.to-do-list {
+  background: url("images/to-do-list.png") no-repeat center;
+  background-size: 80%;
+  justify-content: space-between;
+  min-height: 300px;
+  min-width: 300px;
+  margin: auto;
+}
+
+/*link box styles*/
+ul.projects a {
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  color: #eee;
+  font-size: 1em;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul.projects a:hover {
+  background: #5D1A97;
+  border: #5D1A97;
+  color: white;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/*tools list styles*/
+/*background picture of la skyline styles*/
+ul.tools {
+  background: url("images/bg.jpg");
+  background-attachment: fixed;
+  justify-content: space-around;
+  min-height: 400px;
+  height: auto;
+  list-style-type: none;
+  margin: 0;
+}
+
+/*background pictures of html css javascript*/
+ ul.tools li {
+   text-indent: -10000px;
+   height: 200px;
+   width: 200px;
+   margin: auto;
+ }
+
+ul.tools li.html {
+  background: url("images/html5-logo.svg") no-repeat center;
+  background-size: 60%;
+}
+
+ul.tools li.css {
+  background: url("images/css3-flexbox.svg") no-repeat center;
+  background-size: 60%;
+}
+
+ul.tools li.javascript {
+  background: url("images/js-logo.svg") no-repeat center;
+  background-size: 60%;
+}
+
+/*contact info*/
+h2.contact {
+  background: #111;
+  margin: 0;
+  padding: 20px;
+}
+
+h2.contact a {
+  color: #eee;
+}
+
+/*footer styles*/
+footer {
+  background: #eee;
+  justify-content: flex-end;
+}
+
+footer p {
+  color: #777;
+  margin: 0;
+  padding: 20px;
+}
+
+footer a {
+  color: #777;
+}
