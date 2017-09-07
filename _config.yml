@@ -1,1 +1,2 @@
-baseurl: new
+baseurl: /gitub.io
+exclude: ['README.md']
