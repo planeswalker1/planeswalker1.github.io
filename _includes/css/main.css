@@ -1,0 +1,9 @@
+body {
+  /*background: #eee;*/
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-family: 'Roboto', arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
