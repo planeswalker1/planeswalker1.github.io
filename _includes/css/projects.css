@@ -1,0 +1,96 @@
+.list-container, ul.projects, ul.projects li, #list-1 li, #list-2 li {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+
+.list-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-container ul.projects {
+  flex-basis: 50%;
+}
+
+
+ul.projects {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ /*ul.projects li {
+   margin: 3% 0;
+ }*/
+
+/*background image styles*/
+/*#list-1 li.firstPage, #list-1 li.colorGame, #list-1 li.toDoList, #list-2 li.lucas, #list-2 li.sidewalk, #list-2 li.bike {
+  background-size: 80%;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+#list-1 li, #list-2 li {
+  align-items: center;
+  background-size: 80%;
+  height: 300px;
+  /*justify-content: space-between;*/
+  width: 100%;
+  justify-content: center;
+
+}
+
+ul.projects li.firstPage {
+  background: url(../../images/start.png) no-repeat center;
+}
+
+ul.projects li.colorGame {
+  background: url(../../images/game.png) no-repeat center;
+}
+
+ul.projects li.toDoList {
+  background: url(../../images/list.png) no-repeat center;
+}
+
+ul.projects li.lucas {
+  background: url(../../images/lucas.png) no-repeat center;
+
+}
+
+ul.projects li.sidewalk {
+  background: url(../../images/sidewalk.png) no-repeat center;
+
+}
+
+ul.projects li.bike {
+  background: url(../../images/bike.png) no-repeat center;
+}
+
+/*link box styles*/
+ul.projects a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  color: #eee;
+  font-size: 2em;
+  /*margin: auto;*/
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul.projects a:hover {
+  background-color: #5D1A97;
+  border: #5D1A97;
+  color: white;
+  cursor: pointer;
+  cursor: hand;
+}
