@@ -1,0 +1,31 @@
+header {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home {
+  background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),  url({{site.baseurl}}/images/cascade.jpg);
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url({{site.baseurl}}/images/bg.jpg);
+}
+
+.intro {
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media screen and (min-width:768px) {
+  .intro {
+    font-size: 2em;
+  }
+}
