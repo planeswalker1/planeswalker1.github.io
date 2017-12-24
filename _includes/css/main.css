@@ -2,8 +2,17 @@ body {
   /*background: #eee;*/
   background-color: whitesmoke;
   box-sizing: border-box;
-  font-family: 'Roboto', arial, sans-serif;
+  font-family: 'Roboto Slab', serif;
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+span {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1px;
+}
+
+span:hover {
+  border-color: #1def1d;
 }

@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
 }
 
-nav h1{
+nav h1 {
   margin-left: 5%;
 }
 
@@ -68,34 +68,8 @@ div.responsive ul li a {
 }
 
 p.responsive-open:hover, div.responsive a:hover, nav a:hover, p#show:hover {
-  color: green;
+  color: #1def1d;
 }
-
-/*.button:link {
-  color: blue;
-  text-decoration: none;
-}
-
-.button:visited {
-  color: purple;
-}*/
-
-/*.button:hover {
-  color: aqua;
-  text-decoration: underline;
-}
-
-.button:visited:hover {
-  color: orange;
-}
-
-.button:active {
-  color: red;
-}*/
-
-/*.button:visited:active {
-  color: red;
-}*/
 
 .responsive.responsive-nav {
   transform: translateX(0);

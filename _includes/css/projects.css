@@ -24,21 +24,6 @@ ul.projects {
   padding: 0;
 }
 
- /*ul.projects li {
-   margin: 3% 0;
- }*/
-
-/*background image styles*/
-/*#list-1 li.firstPage, #list-1 li.colorGame, #list-1 li.toDoList, #list-2 li.lucas, #list-2 li.sidewalk, #list-2 li.bike {
-  background-size: 80%;
-  justify-content: space-between;
-  height: 300px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*/
-
 #list-1 li, #list-2 li {
   align-items: center;
   background-size: 80%;
@@ -77,20 +62,19 @@ ul.projects li.bike {
 
 /*link box styles*/
 ul.projects a {
-  background-color: rgba(0, 0, 0, 0.2);
-  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
   color: #eee;
   font-size: 2em;
-  /*margin: auto;*/
   padding: 5px;
   text-align: center;
   text-decoration: none;
 }
 
 ul.projects a:hover {
-  background-color: #5D1A97;
-  border: #5D1A97;
-  color: white;
+  background-color: rgba(13, 50, 109, 0.9);
+  border: rgba(13, 50, 109, 0.1);
+  color: #fff;
   cursor: pointer;
   cursor: hand;
 }
