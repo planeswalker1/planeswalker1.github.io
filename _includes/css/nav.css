@@ -55,6 +55,11 @@ div.responsive ul {
   padding: 0;
 }
 
+li .nav__span {
+  border: none;
+  color: #fff;
+}
+
 div.responsive ul li {
   font-size: 1.5em;
   margin: 15% auto;
