@@ -2,20 +2,15 @@
   <h1><a href="https://github.com/planeswalker1">D<span>aniel Muno</span>z</a></h1>
 
   <ul id="nav" class="nav">
-    <li>
-      {% if page.link == '/' %}
-        <span class="nav__span">Project</span>
-      {% else %}
-        <a href="{{site.baseurl}}index.html">{{page.title}}</a>
-      {% endif %}
-    </li>
-    <li>
-      {% if page.link == '/contact.html'%}
-        <span class="nav__span">contact</span>
-      {% else %}
-      <a href="{{site.baseurl}}contact.html">Contact</a>
-      {% endif %}
-    </li>
+    {% for link in site.data.links %}
+      <li>
+        {% if page.link == link.site %}
+          <span class="nav__span">{{link.title}}</span>
+        {% else %}
+          <a href="{{site.baseurl}}{{link.site}}">{{link.title}}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
     <li><a href="https://planeswalker1.github.io/resume/">Resume</a></li>
   </ul>
 
@@ -26,8 +21,15 @@
   <p class="responsive-open">Close X</p>
 
   <ul class="nav">
-    <li><a href="{{site.baseurl}}index.html">{{page.listTitle}}</a></li>
-    <li><a href="{{site.baseurl}}contact.html">Contact</a></li>
+    {% for link in site.data.links %}
+      <li>
+        {% if page.link == link.site %}
+          <span class="nav__span--responsive">{{link.title}}</span>
+        {% else %}
+          <a href="{{site.baseurl}}{{link.site}}">{{link.title}}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
     <li><a href="https://planeswalker1.github.io/resume/">Resume</a></li>
   </ul>
 </div>
