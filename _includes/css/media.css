@@ -23,6 +23,10 @@
   .list-container {
     flex-direction: column;
   }
+  
+  .toDoList {
+    margin-bottom: 0;
+  }
 
   .wrapper div {
     border-bottom: 1px solid #000;
@@ -60,4 +64,6 @@
   ul#list-1 li, ul#list-2 li {
     height: 200px;
   }
+
+
 }
