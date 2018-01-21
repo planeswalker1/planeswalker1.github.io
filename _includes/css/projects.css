@@ -26,7 +26,7 @@ ul.projects {
 
 #list-1 li, #list-2 li {
   align-items: center;
-  background-size: 80%;
+  background-size: contain;
   height: 300px;
   /*justify-content: space-between;*/
   width: 100%;
@@ -77,4 +77,12 @@ ul.projects a:hover {
   color: #fff;
   cursor: pointer;
   cursor: hand;
+}
+
+.list-container li {
+  margin-top: 30px;
+}
+
+.bike {
+  margin-bottom: 30px;
 }
