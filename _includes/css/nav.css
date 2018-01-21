@@ -55,9 +55,19 @@ div.responsive ul {
   padding: 0;
 }
 
-li .nav__span {
+li .nav__span,
+li .nav__span--responsive {
   border: none;
+}
+
+li .nav__span {
+  border-bottom: 1px solid #fff;
   color: #fff;
+}
+
+li .nav__span--responsive {
+  border-bottom: 1px solid #000;
+  color: #000;
 }
 
 div.responsive ul li {
