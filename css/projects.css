@@ -1,3 +1,8 @@
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
 .list-container, ul.projects, ul.projects li, #list-1 li, #list-2 li {
   display: flex;
   display: -webkit-box;
@@ -35,29 +40,29 @@ ul.projects {
 }
 
 ul.projects li.firstPage {
-  background: url(../../images/start.png) no-repeat center;
+  background: url(../../images/start.jpg) no-repeat center;
 }
 
 ul.projects li.colorGame {
-  background: url(../../images/game.png) no-repeat center;
+  background: url(../../images/game.jpg) no-repeat center;
 }
 
 ul.projects li.toDoList {
-  background: url(../../images/list.png) no-repeat center;
+  background: url(../../images/list.jpg) no-repeat center;
 }
 
 ul.projects li.lucas {
-  background: url(../../images/lucas.png) no-repeat center;
+  background: url(../../images/lucas.jpg) no-repeat center;
 
 }
 
 ul.projects li.sidewalk {
-  background: url(../../images/sidewalk.png) no-repeat center;
+  background: url(../../images/sidewalk.jpg) no-repeat center;
 
 }
 
 ul.projects li.bike {
-  background: url(../../images/bike.png) no-repeat center;
+  background: url(../../images/bike.jpg) no-repeat center;
 }
 
 /*link box styles*/

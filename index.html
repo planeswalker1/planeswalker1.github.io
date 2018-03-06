@@ -1,15 +1,17 @@
 ---
 layout: default
-link: /index.html
+title-after: Web Developer
 ---
 
 <header class="home">
-  {% include nav.html%}
+  {% include nav.html %}
+  {% include responsive-nav.html %}
   <div class="intro">
     <h2>I Make Responsive Websites</h12>
   </div>
 </header>
-<main>
+
+<main id="main">
   <div class="list-container">
     <ul id= "list-1" class="projects">
       {% for project in site.data.list-data %}
@@ -23,5 +25,4 @@ link: /index.html
       {% endfor %}
       </ul>
     </div>
-
   </main>

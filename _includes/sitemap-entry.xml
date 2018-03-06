@@ -1,0 +1,11 @@
+<url>
+  <loc>https://planeswalker1.github.io{{ include.entry.url }}</loc>
+
+  {% if include.entry.changefreq %}
+    <changefreq>{{ include.entry.changefreq }}</changefreq>
+  {% endif %}
+
+  {% if include.entry.priority %}
+    <priority>{{ include.entry.priority }}</priority>
+  {% endif %}
+</url>

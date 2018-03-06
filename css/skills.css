@@ -18,7 +18,7 @@ main h1 {
 }
 
 ul.tools {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)), url(../../images/old.png);
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(../../images/old.jpg);
   background-attachment: fixed;
   justify-content: space-around;
   min-height: 400px;

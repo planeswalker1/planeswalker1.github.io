@@ -10,11 +10,11 @@ header {
 }
 
 .home {
-  background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)),  url({{site.baseurl}}/images/cascade.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),  url(/images/cascade.jpg);
 }
 
 .contact {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)), url({{site.baseurl}}/images/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), url(/images/bg.jpg);
 }
 
 .intro {

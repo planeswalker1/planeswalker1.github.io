@@ -1,0 +1,16 @@
+<li>
+  {% if page.url == '/' %}
+    <a href="#main" class="{{include.span-class}}">Projects</a>
+  {% else %}
+    <a href="/">Home</a>
+  {% endif %}
+</li>
+
+<li>
+  {% if page.url == '/contact/' %}
+    <span class="{{include.span-class}}">Contact</span>
+  {% else %}
+    <a href="/contact/">Contact</a>
+  {% endif %}
+</li>
+<li><a href="https://planeswalker1.github.io/resume/">Resume</a></li>

@@ -63,11 +63,13 @@ li .nav__span--responsive {
 li .nav__span {
   border-bottom: 1px solid #fff;
   color: #fff;
+  padding: 0;
 }
 
 li .nav__span--responsive {
   border-bottom: 1px solid #000;
   color: #000;
+  padding: 0;
 }
 
 div.responsive ul li {

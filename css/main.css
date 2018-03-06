@@ -1,0 +1,10 @@
+---
+---
+
+{% include_relative base.css %}
+{% include_relative header.css %}
+{% include_relative nav.css %}
+{% include_relative skills.css %}
+{% include_relative projects.css %}
+{% include_relative footer.css %}
+{% include_relative media.css %}
