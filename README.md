@@ -6,7 +6,7 @@
 
 ## Description
 
-_This page has been created in order to show my web dev skills._
+_This page has been created in order to showcase my web dev skills._
 
 ## Setup/Installation Requirements
 
