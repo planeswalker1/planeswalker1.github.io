@@ -1,0 +1,108 @@
+/* header styles */
+.header--home {
+  background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),  url(/images/cascade.jpg);
+}
+
+.header--contact {
+  background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)),  url(../images/bg.jpg);
+}
+
+.intro__heading {
+  font-size: 4em;
+  text-align: center;
+}
+
+/*header link styles*/
+.nav__item {
+  font-weight: bold;
+}
+
+.nav__link {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav__link:hover:after {
+  width: 24px;
+}
+
+.nav__link:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  display: block;
+  width: 0;
+  background-color: #00D3EB;
+  transition: all 0.35s ease-in-out;
+}
+
+.active {
+  border-bottom: 3px solid #00D3EB;
+  padding-bottom: 3px;
+}
+
+/* main styles */
+.project--lucas {
+  background-image: url(/images/lucas.jpg);
+}
+
+.project--watch {
+  background-image: url(/images/watch.jpg);
+}
+
+.project--smash {
+  background-image: url(/images/smash.jpg);
+}
+
+.project--lanki {
+  background-image: url(/images/lanki.jpg);
+}
+
+.project--article {
+  background-image: url(/images/article.jpg);
+}
+
+.project--colorgame {
+  background-image: url(/images/colorgame.jpg);
+}
+
+.projects__project {
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* main button styles */
+.projects__link {
+  /* color: #fff; */
+  border-radius: 10px;
+  font-size: 1.25em;
+  padding: 10px 20px;
+  transition: all 0.6s;
+  /* text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45); */
+  background-color: #eee;
+  color: #000;
+  text-shadow: .1px .1px #000;
+}
+
+.projects__link:hover {
+  border: 1px solid #eee;
+  text-shadow: none;
+}
+
+/* footer styles */
+.footer__copy {
+  text-align: center;
+}
+
+/* contact svg styles */
+.svg {
+  text-align: center;
+}
+
+.svg svg {
+  height: 200px;
+}

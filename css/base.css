@@ -1,17 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f5f5f5;
-  box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
-  height: 100%;
   margin: 0;
-  padding: 0;
 }
 
-span {
-  border-bottom: 2px solid #fff;
-  padding-bottom: 1px;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-span:hover {
-  border-color: #1def1d;
+a {
+  color: #00D3EB;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #696969;
+  color: #fff;
+  overflow: auto;
 }

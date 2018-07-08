@@ -1,0 +1,11 @@
+-
+  class: footer__about
+  title: About Me
+  p1: I'm a web developer based in California
+  p2: I focus on the front end
+  p3: You can check out my other projects on my <a href="https://github.com/planeswalker1">Github</a>
+
+-
+  class: footer__contact
+  title: Contact Me
+  p1: If you want help with a project,<br> contact me by email at <strong>daniel.munozdev@gmail.com</strong>

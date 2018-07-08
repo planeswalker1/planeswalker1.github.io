@@ -1,28 +1,16 @@
 ---
 layout: default
-title-after: Web Developer
+title: Web Developer
+heading-1: I make Responsive Websites
 ---
 
-<header class="home">
-  {% include nav.html %}
-  {% include responsive-nav.html %}
-  <div class="intro">
-    <h2>I Make Responsive Websites</h12>
+{% include header.html classname="header--home" %}
+<main>
+  <div class="projects">
+    {% for project in site.data.projects %}
+      <div class="projects__project project--{{ project.class }}">
+        <p><a class="projects__link" href="{{ project.source }}">{{ project.title }}</a></p>
+      </div>
+    {% endfor %}
   </div>
-</header>
-
-<main id="main">
-  <div class="list-container">
-    <ul id= "list-1" class="projects">
-      {% for project in site.data.list-data %}
-        <li class="{{project.class}}"><a href="{{project.source}}">{{project.title}}</a></li>
-      {% endfor %}
-    </ul>
-
-    <ul id= "list-2" class="projects">
-      {% for project in site.data.list-two-data %}
-        <li class="{{project.class}}"><a href="{{project.source}}">{{project.title}}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-  </main>
+</main>

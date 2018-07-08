@@ -1,21 +1,17 @@
 <footer>
   <div class="footer">
-    <div>
-      <h2>About Me</h2>
-      <p>I am a freelancer based in California</p>
-      <p>I focus on web development</p>
-      <p>My <a href="https://github.com/planeswalker1"><span>Github</span></a></p>
+    {% for text in site.data.footer %}
+    <div class="{{text.class}}">
+      <h2 class="footer__heading">{{ text.title }}</h2>
+      <p class="footer__p">{{ text.p1 }}</p>
+      {% if {{text.p2}} %}
+      <p class="footer__p">{{ text.p2 }}</p>
+      {% endif %}
+      {% if {{text.p3}} %}
+      <p class="footer__p">{{ text.p3 }}</p>
+      {% endif %}
     </div>
-
-    <div>
-      <h2>Contact Me</h2>
-      <p>If you want help with a project, contact me</p>
-      <p>I will help find the best solution</p>
-      <p><a href="/contact/"><span>daniel.munozdev@gmail.com</span></a></p>
-    </div>
-
+    {% endfor %}
   </div>
-  <div class="copy">
-    <p>&copy; Daniel Munoz</p>
-  </div>
+  <p class="footer__copy">&copy; Daniel Munoz</p>
 </footer>

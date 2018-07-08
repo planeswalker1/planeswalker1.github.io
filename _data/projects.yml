@@ -1,0 +1,28 @@
+-
+  class: lucas
+  source: https://planeswalker1.github.io/lucas/
+  title: Lucas
+
+-
+  class: watch
+  source: https://planeswalker1.github.io/watch/
+  title: Watch
+
+-
+  class: smash
+  source: https://planeswalker1.github.io/flex-panel/
+  title: Smash
+-
+  class: lanki
+  source: https://planeswalker1.github.io/lanki/
+  title: Lanki
+
+-
+  class: article
+  source: https://planeswalker1.github.io/article/
+  title: Article
+
+-
+  class: colorgame
+  source: https://planeswalker1.github.io/The-Great-Color-Guessing-Game/
+  title: Color Game

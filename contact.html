@@ -1,22 +1,39 @@
 ---
 layout: default
 title: Contact
+heading-2: Get In Touch!
+heading-3: Drop me an email at daniel.munozdev@gmail.com
 ---
-<header class="contact">
-  {% include nav.html %}
-  {% include responsive-nav.html %}
-  <div class="intro">
-    <h1>Get In Touch!</h1>
-    <h2>Drop me an email at daniel.munozdev@gmail.com</h2>
-  </div>
-</header>
 
+{% include header.html classname="header--contact" %}
 <main>
-  <h1>Skills</h1>
-
-  <ul id="skills" class="tools">
-    <li class="html">html5</li>
-    <li class="css">css</li>
-    <li class="javascript">javascript</li>
-  </ul>
+  <div class="main__heading">
+    <h2>Skills</h2>
+  </div>
+  <div class="skills">
+    <div class="svg">
+      <p>HTML5</p>
+      {% include svg/html5.svg %}
+    </div>
+    <div class="svg">
+      <p>CSS3</p>
+      {% include svg/css3.svg %}
+    </div>
+    <div class="svg">
+      <p>javaScript</p>
+      {% include svg/javascript.svg %}
+    </div>
+    <div class="svg">
+      <p>Git</p>
+      {% include svg/git.svg %}
+    </div>
+    <div class="svg">
+      <p>GitHub</p>
+      {% include svg/github.svg %}
+    </div>
+    <div class="svg">
+      <p>Jekyll</p>
+      {% include svg/jekyll.svg %}
+    </div>
+  </div>
 </main>

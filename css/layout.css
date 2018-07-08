@@ -1,0 +1,170 @@
+.container {
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+/* header styles */
+.header {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 600px;
+  overflow: auto;
+}
+
+.intro {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 40px;
+}
+
+.nav__name {
+  flex: 1;
+  margin: 0;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* main styles */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 300px);
+}
+
+.projects__project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  border: 1px solid #000;
+}
+
+/* footer styles */
+.footer {
+  display: flex;
+}
+
+.footer__about,
+.footer__contact {
+  flex: 1;
+  padding-left: 20px;
+}
+
+/* contact header styles */
+.intro__heading--contact {
+  font-size: 3em;
+}
+
+/* contact main styles */
+.main__heading {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #222;
+  color: #fff;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  min-height: 400px;
+}
+
+@media screen and (max-width: 960px) {
+  /* header styles */
+  .header {
+    height: 100vh;
+  }
+
+  .nav {
+    flex-direction: column;
+    margin: 20px 10px;
+  }
+
+  .nav__name,
+  .nav__links {
+    width: 100%;
+  }
+
+  .nav__name {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .intro__heading,
+  .intro__heading--contact,
+  .intro__heading--email {
+    font-size: 2em;
+  }
+
+  /* footer styles */
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__about,
+  .footer__contact {
+    border-bottom: 1px solid  #000;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .footer__heading {
+    padding-left: 20px;
+  }
+
+  .footer__p {
+    padding-left: 30px;
+  }
+
+  /* contact main styles */
+  .skills {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* header styles */
+  .intro__heading--email {
+    font-size: 1.5em;
+  }
+
+  /* main styles */
+  .projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 300px);
+  }
+}

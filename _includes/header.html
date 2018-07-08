@@ -1,0 +1,17 @@
+<header class="header {{ include.classname }}">
+  <nav class="nav">
+    <h1 class="nav__name">Daniel Munoz</h1>
+    <ul class="nav__links">
+      {% include links.html %}
+    </ul>
+  </nav>
+  <div class="intro">
+    {% if {{page.heading-1}} %}
+    <h1 class="intro__heading">{{ page.heading-1 }}</h1>
+    {% endif %}
+    {% if {{page.heading-2}} %}
+    <h1 class="intro__heading--contact">{{ page.heading-2 }}</h1>
+    <h1 class="intro__heading--email">{{ page.heading-3 }}</h1>
+    {% endif %}
+  </div>
+</header>
