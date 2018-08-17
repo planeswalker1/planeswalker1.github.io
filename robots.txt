@@ -1,0 +1,2 @@
+Sitemap: https://planeswalker1.github.io/tasty-grid/sitemap.xml
+User-agent: *

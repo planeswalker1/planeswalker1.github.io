@@ -1,6 +1,6 @@
 # _planeswalker1.github.io_
 
-#### _This website is my home page, 08.11.2018_
+#### _This website is my home page, 08.16.2018_
 
 #### By _**planeswalker1**_
 
@@ -28,4 +28,5 @@ _If you run into any issues or have questions, ideas or concerns contact me at d
 
 _HTML_
 _CSS_
+_JS_
 _Jekyll_

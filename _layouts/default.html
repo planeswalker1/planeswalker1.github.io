@@ -4,19 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#45db59">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:type" content="website">
   <meta name="description" content="{{ page.meta }}">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}Daniel Munoz</title>
-  <link rel="icon" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ page.meta }}">
+  <title>{{ page.title }}</title>
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    {{ content }}
-    {% include footer.html %}
+    <header>
+      {% include nav.html %}
+    </header>
+    <main class="main {% if page.main-class %}{{ page.main-class }}{% endif %}">
+      {{ content }}
+    </main>
+    <footer>
+      <nav>
+        <ul class="nav__list--footer">
+          <li class="nav__item--footer"><a class="nav__link--footer" href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li class="nav__item--footer"><a class="nav__link--footer" href="{{ site.baseurl }}/contact">Contact</a></li>
+          <li class="nav__item--footer"><a class="nav__link--footer" href="https://github.com/planeswalker1">Github</a></li>
+        </ul>
+      </nav>
+    </footer>
   </div>
+  {% if page.url contains 'portfolio' %}<script src="{{ site.baseurl }}/js/main.js" defer></script>{% endif %}
 </body>
 </html>

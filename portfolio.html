@@ -1,0 +1,27 @@
+---
+layout: default
+title: Portfolio · Daniel Munoz
+main-class: main--portfolio
+meta:  Discover some responsive websites.
+---
+
+<div class="main__container">
+    <h1 class="container__heading">Front End Projects</h1>
+    <div class="grid--portfolio">
+      {% for project in site.data.portfolio %}
+        <div class="grid__item">
+          <a href="{{ site.baseurl }}{{ project.source }}"><img class="item__image" src="{{ site.baseurl }}/images/{{ project.image }}" alt="Photo of {{ project.meta }}"></a>
+          <div class="item__content">
+              <h4>{{ project.heading }}</h4>
+              <p class="item__meta">{{ project.meta }}</p>
+              <p> {{ project.tech}}</p>
+              <div class="item__flex">
+                <p><a href="{{ project.source }}">Demo</a></p>
+                <p>{{ project.date }}</p>
+              </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+

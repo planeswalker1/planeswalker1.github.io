@@ -1,17 +1,30 @@
 ---
 layout: default
-title: Web Developer
-heading-1: I make Responsive Websites
-meta: Discover some cool respsonsive websites.
+title: Daniel Munoz - Front End Web Developer - Long Beach, California
+meta: Hi my name is Daniel Munoz. I am a programmer from Long Beach, California that focuses in the Front-End of Web Development. I like to make websites with HTML, CSS and javaScript. My goal is to offer tailored online solutions.
 ---
 
-{% include header.html classname="header--home" %}
-<main>
-  <div class="projects">
-    {% for project in site.data.projects %}
-      <div class="projects__project project--{{ project.class }}">
-        <p><a class="projects__link" href="{{ project.source }}">{{ project.title }}</a></p>
-      </div>
-    {% endfor %}
-  </div>
-</main>
+<div class="main__container main__container--med">
+  <h2 class="container__heading">Hi.</h2>
+  <p>Welcome to my portfolio.</p>
+
+  <h2>About Me</h2>
+  <p>
+      My name is Daniel.
+      I am currently developing projects with HTML, CSS, and JavaScript.
+      I upload most of my work on my 
+      <a href="https://github.com/planeswalker1">github</a>.
+      I like to make websites, and play League of Legends.
+      Check out some of my recent <a href="{{ site.baseurl }}/portfolio">work</a> .
+    </p>
+
+  <h2>Skills</h2>
+  <ul>
+      <li>{% include svg/html5.svg %} HTML</li>
+      <li>{% include svg/css3.svg %} CSS</li>
+      <li>{% include svg/javascript.svg %} javaScript</li>
+      <li>{% include svg/jekyll.svg %} Jekyll</li>
+      <li>{% include svg/git.svg %} Git</li>
+      <li>{% include svg/github.svg %} Github</li>
+  </ul>
+</div>

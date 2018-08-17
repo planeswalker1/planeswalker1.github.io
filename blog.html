@@ -1,0 +1,45 @@
+---
+layout: default
+title: Blog · Daniel Munoz
+meta: My blogs mostly related to web development
+---
+
+<div class="main__container main__container--blog">
+  <div class="container__post">
+    <h1 class="container__heading">Blog</h1>
+    <ul class="post__list">
+      {% for post in site.posts %}
+        <li class="list__blog">
+          <div>
+            <a href="{{ site.baseurl}}{{post.url}}">
+              <img src="{{ site.baseurl }}/images/{{ post.imgSrc }}" alt="Photo of {{ post.imgAlt }}" class="img--post">
+            </a>
+          </div>
+          <div>
+            <h2>
+              <a class="blog__a" href="{{ site.baseurl}}{{post.url}}">{{ post.header }}</a>
+            </h2>
+            <p class="blog__meta">
+              {{ post.meta }} <a href="{{ site.baseurl}}{{post.url}}" class="blog__a">Read More</a>
+            </p>
+            <p>{{ post.date | date: "%B %-d, %Y" }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+ 
+  <!-- archive -->
+  <section class="archive">
+    {% for post in site.posts %} {% assign currentDate = post.date | date: "%Y" %} {% if currentDate != myDate %} {% unless forloop.first
+    %}</ul>{% endunless %}
+    <h1 class="archive__heading">{{ currentDate }}</h1>
+    <ul class="archive__list">
+      {% assign myDate = currentDate %} {% endif %}
+      <li>
+        <a class="archive__link" href="{{ site.baseurl }}{{ post.url }}">
+          <span class="archive__meta">{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.header }}</a>
+      </li>
+      {% if forloop.last %}</ul>{% endif %} {% endfor %}
+  </section>
+</div>

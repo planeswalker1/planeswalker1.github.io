@@ -1,0 +1,49 @@
+-
+  image: site.jpg
+  heading: My Website
+  meta: A website about me.
+  tech: HTML, CSS, Jekyll
+  source: https://planeswalker1.github.io/old-main/
+  date: July 2018
+
+-
+  image: font.jpg
+  heading: Typography
+  meta: A website about typography.
+  tech: HTML, CSS, Jekyll
+  source: https://planeswalker1.github.io/typography/
+  date: July 2018
+
+-
+  image: watch.jpg
+  heading: Watch
+  meta: A website about music.
+  tech: HTML, CSS, Jekyll, javaScript, Tilt.js
+  source: https://planeswalker1.github.io/watch/
+  date: May 2018
+
+-
+  image: lanki.jpg
+  heading: Lanki
+  meta: A website about an eccomerce business.
+  tech: HTML, CSS, Jekyll, javaScript
+  source: https://planeswalker1.github.io/lanki/
+  date: March 2018
+
+-
+  image: color-game.jpg
+  heading: RGB Color Game
+  meta: A matching color game website.
+  tech: HTML, CSS, javaScript
+  source: https://planeswalker1.github.io/The-Great-Color-Guessing-Game/
+  date: January 2018
+
+-
+  image: lucas.jpg
+  heading: Lucas
+  meta: A website about Lucas, a super smash bros. character.
+  tech: HTML, CSS, Jekyll
+  source: https://planeswalker1.github.io/lucas/
+  date: July 2017
+
+
