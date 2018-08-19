@@ -31,8 +31,17 @@ main {
   flex: 1;
 }
 
+a {
+  color: #2076e1;
+}
+
+a:hover {
+  color: #111;
+}
+
 svg {
   height: 1em;
+  padding-right: 10px;
 }
 
 /* footer styles */

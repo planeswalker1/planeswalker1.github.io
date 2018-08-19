@@ -7,11 +7,24 @@
   color: #fff;
 }
 
+.nav__link--header:hover {
+  color: #fff;
+}
+
 .container__heading {
   margin-top: 0;
 }
 
 /* main styles */
+.web {
+  list-style-type: none;
+  padding: 0;
+}
+
+.web__list {
+  margin: 5px 0;
+}
+
 /* grid styles */
 .grid--portfolio {
   position: relative;
