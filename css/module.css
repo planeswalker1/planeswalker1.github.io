@@ -53,12 +53,16 @@
 }
 
 /* blog styles */
+.img--post {
+ height: 200px;
+}
+
 .img--blog {
  width: 100%;
 }
 
-.img--post {
- height: 200px;
+.img--paginate {
+  height: 100px;
 }
 
 .post__list {

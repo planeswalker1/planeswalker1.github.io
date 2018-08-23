@@ -1,0 +1,27 @@
+<div class="paginate">
+  {% if include.prev %}
+    <div class="paginate__prev">
+      <a href="{{ include.prev.url }}">
+        <div class="prev__img">
+          <img class="img--paginate" src="{{ site.baseurl }}/images/{{ include.prev.imgSrc }}" alt="Photo of {{ include.prev.imgAlt }}">
+        </div>
+        <div class="prev__container">
+          <h3 class="container__title">{{ include.prev.header }}</h3>
+        </div>
+      </a>
+    </div>
+  {% endif %}
+  
+  {% if include.next %}
+    <div class="paginate__next">
+      <a href="{{ include.next.url }}">
+        <div class="next__img ">
+          <img class="img--paginate" src="{{ site.baseurl }}/images/{{ include.next.imgSrc }}" alt="Photo of {{ include.next.imgAlt }}">
+        </div>
+        <div class="next__container">
+          <h3 class="container__title">{{ include.next.header }}</h3>
+        </div>
+      </a>
+    </div>
+  {% endif %}
+</div>

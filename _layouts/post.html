@@ -6,4 +6,5 @@ layout: default
   <h1 class="container__heading">{{ page.header }}</h1>
   <img class="img--blog" src="{{ site.baseurl }}/images/{{ page.imgSrc}}" alt="Photo of {{ page.imgAlt }}">
   {{ content }}
+  {% include paginate.html prev=page.previous next=page.next %}
 </div>
