@@ -14,7 +14,7 @@
 .active {
   background-color: white;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 5px 15px;
 }
 
 .active--link {
@@ -78,7 +78,7 @@
 }
 
 .btn {
-  background-color: #000;
+  background-color: #222;
   border-radius: 15px;
   color: #fff;
   display: inline-block;
@@ -89,8 +89,8 @@
   transition: background-color 0.7s, top 0.7s;
 }
 
-.btn--light {
-  background-color: #222;
+.btn--small {
+  padding: 5px 15px;
 }
 
 .btn:hover {
