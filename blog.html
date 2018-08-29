@@ -12,15 +12,15 @@ meta: My blogs mostly related to web development
         <li class="list__blog">
           <div>
             <a href="{{ site.baseurl}}{{post.url}}">
-              <img src="{{ site.baseurl }}/images/{{ post.imgSrc }}" alt="Photo of {{ post.imgAlt }}" class="img--post">
+              <img class="link img--post" src="{{ site.baseurl }}/images/{{ post.imgSrc }}" alt="Photo of {{ post.imgAlt }}" class="img--post">
             </a>
           </div>
           <div>
             <h2>
-              <a class="blog__a" href="{{ site.baseurl}}{{post.url}}">{{ post.header }}</a>
+              <a class="link blog__a" href="{{ site.baseurl}}{{post.url}}">{{ post.header }}</a>
             </h2>
             <p class="blog__meta">
-              {{ post.meta }} <a href="{{ site.baseurl}}{{post.url}}" class="blog__a">Read More</a>
+              {{ post.meta }} <a class="link blog__a" href="{{ site.baseurl}}{{post.url}}">Read More</a>
             </p>
             <p>{{ post.date | date: "%B %-d, %Y" }}</p>
           </div>
@@ -28,7 +28,7 @@ meta: My blogs mostly related to web development
       {% endfor %}
     </ul>
   </div>
- 
+
   <!-- archive -->
   <section class="archive">
     {% for post in site.posts %} {% assign currentDate = post.date | date: "%Y" %} {% if currentDate != myDate %} {% unless forloop.first

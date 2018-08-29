@@ -1,7 +1,7 @@
 <div class="paginate">
   {% if include.prev %}
     <div class="paginate__prev">
-      <a href="{{ include.prev.url }}">
+      <a class="link" href="{{ include.prev.url }}">
         <div class="prev__img">
           <img class="img--paginate" src="{{ site.baseurl }}/images/{{ include.prev.imgSrc }}" alt="Photo of {{ include.prev.imgAlt }}">
         </div>
@@ -11,10 +11,10 @@
       </a>
     </div>
   {% endif %}
-  
+
   {% if include.next %}
     <div class="paginate__next">
-      <a href="{{ include.next.url }}">
+      <a class="link" href="{{ include.next.url }}">
         <div class="next__img ">
           <img class="img--paginate" src="{{ site.baseurl }}/images/{{ include.next.imgSrc }}" alt="Photo of {{ include.next.imgAlt }}">
         </div>

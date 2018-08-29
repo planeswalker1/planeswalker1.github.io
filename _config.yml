@@ -1,3 +1,7 @@
 baseurl: ''
 exclude: ['README.md', '.gitignore']
 permalink: pretty
+
+collections:
+  portfolio:
+    output: true

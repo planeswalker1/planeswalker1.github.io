@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="main__container main__container--med">
+  <h1>{{ page.heading }}</h1>
+  <a href="{{ page.src }}">
+    <img class="img--blog" src="{{ site.baseurl }}/images/{{ page.imgSrc }}" alt="Photo of {{ page.imgAlt }}">
+  </a>
+
+  <h2>What is This</h2>
+  <p>{{ page.meta }}</p>
+
+  <h2>Built With</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    {% if page.jekyll %}
+      <li>Jekyll</li>
+    {% endif %}
+    {% if page.javaScript %}
+      <li>javaScript</li>
+    {% endif %}
+    {% if page.library %}
+      <li>{{ page.library }}</li>
+    {% endif %}
+  </ul>
+
+  <h2>Challenges</h2>
+  {{ content }}
+
+  <div class="btn-container">
+    <a class="btn" href="{{ page.src }}">View Project</a>
+  </div>
+</div>

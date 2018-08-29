@@ -1,9 +1,13 @@
 <nav class="header__nav">
     <p class="nav__heading--header"><strong>Daniel Munoz</strong></p>
     <ul class="nav__list--header">
-      <li class="nav__item--header"><a class="nav__link--header" href="{{ site.baseurl }}/">Home</a></li>
-      <li class="nav__item--header"><a class="nav__link--header" href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
-      <li class="nav__item--header"><a class="nav__link--header" href="{{ site.baseurl }}/blog">Blog</a></li>
-      <li class="nav__item--header"><a class="nav__link--header" href="{{ site.baseurl }}/contact">Contact</a></li>
+
+      <li class="nav__item--header {% if page.url == '/'%}active{% endif %}"><a class="nav__link--header {% if page.url == '/'%}active--link{% endif %}" href="{{ site.baseurl }}/">Home</a></li>
+
+      <li class="nav__item--header {% if page.url contains '/portfolio/'%}active{% endif %}"><a class="nav__link--header {% if page.url contains '/portfolio/'%}active--link{% endif %}" href="{{ site.baseurl }}/portfolio/">Portfolio</a></li>
+
+      <li class="nav__item--header {% if page.url contains '/blog/' or page.url contains '2018'%}active{% endif %}"><a class="nav__link--header {% if page.url contains '/blog/' or page.url contains '2018'%}active--link{% endif %}" href="{{ site.baseurl }}/blog/">Blog</a></li>
+
+      <li class="nav__item--header {% if page.url == '/contact/'%}active{% endif %}"><a class="nav__link--header {% if page.url == '/contact/'%}active--link{% endif %}" href="{{ site.baseurl }}/contact/">Contact</a></li>
     </ul>
   </nav>
