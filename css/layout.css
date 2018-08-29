@@ -64,6 +64,18 @@
     width: 70%;
 }
 
+.paginate {
+  display: flex;
+}
+
+.paginate__prev {
+  flex: 1;
+}
+
+.paginate__next {
+  flex: 1;
+}
+
 /* portfolio styles */
 .grid--portfolio {
   display: grid;
@@ -132,6 +144,11 @@
     width: 100%;
   }
 
+  .img--paginate {
+    object-fit: cover;
+    width: 100%;
+  }
+
   .blog__meta {
     width: 100%;
   }
@@ -140,6 +157,10 @@
     height: unset;
     order: 1;
     width: 100%;
+  }
+
+  .paginate {
+    flex-direction: column;
   }
 }
 
