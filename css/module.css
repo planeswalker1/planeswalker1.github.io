@@ -13,8 +13,12 @@
 
 .active {
   background-color: white;
-  border-radius: 10px;
+  height: 100%;
   padding: 5px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .active--link {
@@ -79,7 +83,7 @@
 
 .btn {
   background-color: #222;
-  border-radius: 15px;
+  border-radius: 100px;
   color: #fff;
   display: inline-block;
   list-style: none;

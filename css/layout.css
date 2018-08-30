@@ -17,6 +17,7 @@
 
 .nav__heading--header {
   color: #fff;
+  margin: 0;
   margin-left: 20px;
 }
 
@@ -27,6 +28,7 @@
 
   height: 50px;
   list-style-type: none;
+  margin: 0;
   margin-right: 20px;
   padding: 0;
 }
