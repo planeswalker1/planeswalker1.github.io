@@ -13,12 +13,8 @@
 
 .active {
   background-color: white;
-  height: 100%;
+  border-radius: 10px;
   padding: 5px 15px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .active--link {
@@ -83,7 +79,7 @@
 
 .btn {
   background-color: #222;
-  border-radius: 100px;
+  border-radius: 15px;
   color: #fff;
   display: inline-block;
   list-style: none;
@@ -237,6 +233,63 @@ th {
   color: #DD4A68;
 }
 
+/* html syntax highlighting */
+.language-html {
+  background-color: #272822;
+  overflow: scroll;
+}
+
+.language-html .nt {
+  color: #9EFFFF;
+}
+
+.language-html .cp {
+  color: #9EFFFF;
+}
+
+.language-html .na {
+  color: #ffc600;
+}
+
+.language-html .s {
+  color: #92fc79;
+}
+
+.language-html .highlight {
+  color: #e1efff;
+}
+
+/* css syntax highlight */
+.c {
+  color: #0088ff;
+  font-style: italic;
+}
+
+.nc {
+  color: #3ad900
+}
+
+.highlight .nl {
+  color: #75e75b
+}
+
+.nf {
+  color: #FFB454;
+}
+
+.no {
+  color: #ffee80;
+}
+
+/* Yellow: #ffc600
+Orange: #FF9D00
+Mint: #2AFFDF
+Blue: #193549
+Off Blue: #0D3A58 (use on variable bgs)
+Dusty Blue: #35434d
+Dark Blue: #15232D
+Pink: #FB94FF
+Light Blue: #9EFFFF */
 @media screen and (max-width: 961px) {
   pre.highlight {
     overflow: scroll;
