@@ -181,6 +181,34 @@ th {
 }
 
 /* syntax highlighting for the blog */
+.code {
+  background-color: #f7f7f9;
+  border-radius: 4px;
+  font-size: 90%;
+  padding: 2px 4px;
+}
+
+.code--orange {
+  color: #FF9D00;
+}
+
+.code--blue {
+  color: #1e347b;
+}
+
+.title--file {
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-bottom: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-bottom: 0px;
+  padding: 4px 9px 0 9px;
+}
+
+p > img {
+  width: 100%;
+}
+
 .highlight {
   background-color: #272822;
   font-size: 16px;
@@ -201,18 +229,13 @@ th {
   color: #fff;
 }
 
-.highlight .kd,
-.highlight .k {
-  color: #c537dd;
+.highlight .kd {
+  color: #FF9D00;
 }
 
 .highlight .s1,
 .highlight .s2 {
   color: #a6e22e;
-}
-
-.highlight .p {
-  color: #ded9d9;
 }
 
 .highlight .mi {
@@ -229,10 +252,6 @@ th {
 
 .highlight .nl {
   color: #905;
-}
-
-.highlight .n {
-  color: #DD4A68;
 }
 
 /* html syntax highlighting */
@@ -258,7 +277,7 @@ th {
 }
 
 .language-html .highlight {
-  color: #e1efff;
+  color: #fff;
 }
 
 /* css syntax highlight */
@@ -268,11 +287,11 @@ th {
 }
 
 .nc {
-  color: #3ad900
+  color: #3ad900;
 }
 
 .highlight .nl {
-  color: #75e75b
+  color: #75e75b;
 }
 
 .nf {
@@ -283,7 +302,23 @@ th {
   color: #ffee80;
 }
 
-/* Yellow: #ffc600
+.k {
+  color: #FF9D00;
+}
+
+.p {
+  color: #ffee80;
+}
+
+.n {
+  color: #ffee80;
+}
+
+.m {
+  color: #75e75b;
+}
+/*
+Yellow: #ffc600
 Orange: #FF9D00
 Mint: #2AFFDF
 Blue: #193549
@@ -291,7 +326,9 @@ Off Blue: #0D3A58 (use on variable bgs)
 Dusty Blue: #35434d
 Dark Blue: #15232D
 Pink: #FB94FF
-Light Blue: #9EFFFF */
+Light Blue: #9EFFFF
+*/
+
 @media screen and (max-width: 961px) {
   pre.highlight {
     overflow: scroll;
