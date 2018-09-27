@@ -20,6 +20,7 @@
 .active--link {
   color: #222;
 }
+
 /* main styles */
 .web {
   list-style-type: none;
@@ -37,6 +38,7 @@
 .link:hover {
   color: #111;
 }
+
 /* grid styles */
 .grid--portfolio {
   position: relative;
@@ -113,6 +115,7 @@
 .blog__meta {
   width: 80%;
 }
+
 /* table styles */
 table {
   border-spacing: 0;
@@ -136,12 +139,13 @@ td {
 th {
   text-align: left;
 }
+
 /* archive styles */
 .archive {
     border: solid 1px #ddd;
     border-radius: 3px;
     width: 40%;
-    height: 400px;
+    height: 500px;
     padding: 30px;
 }
 
@@ -196,6 +200,10 @@ th {
   color: #1e347b;
 }
 
+.code--red {
+  color: #d14;
+}
+
 .title--file {
   border: 1px solid rgba(0, 0, 0, .15);
   border-bottom: none;
@@ -216,41 +224,60 @@ p > img {
   padding: 10px;
 }
 
-.highlight .c1 {
-  color: #75715e;
+/* js syntax highlighting */
+.language-js .c1 {
+  color: #e1efff;
+  font-style: italic;
 }
 
-.nx,
-.highlight .nb {
-  color: #268BD2;
-}
-
-.highlight .o {
+.language-js .p {
   color: #fff;
 }
 
-.highlight .kd {
+.language-js .na {
+  color: #9EFFFF
+}
+
+.language-js .mf {
+  color: #ff5e4c;
+}
+
+.language-js .nx {
+  color: #5ebcff;
+}
+
+.language-js .nb {
+  color: #a5ff90;
+}
+
+.language-js .o {
+  color: #fff;
+}
+
+.language-js .kd,
+.language-js .k {
   color: #FF9D00;
 }
 
-.highlight .s1,
-.highlight .s2 {
+.language-js .s1,
+.language-js .s2 {
   color: #a6e22e;
 }
 
-.highlight .mi {
+.language-js .mi {
   color: orange;
 }
 
-.highlight .kc {
-  color: #f5d1d7;
+.language-js .kc,
+.language-js .mi {
+  color: #f97162;
 }
 
-.highlight .nt {
+.language-js .nt {
   color: #690;
 }
 
-.highlight .nl {
+.language-js .nl {
   color: #905;
 }
 
@@ -281,53 +308,51 @@ p > img {
 }
 
 /* css syntax highlight */
-.c {
+.language-css .c {
   color: #0088ff;
   font-style: italic;
 }
 
-.nc {
+.language-css .nt {
+  color: #690;
+}
+
+.language-css .nx,
+.language-css .nb {
+  color: #ffee80;
+}
+
+.language-css .nc {
   color: #3ad900;
 }
 
-.highlight .nl {
+.language-css .nl {
   color: #75e75b;
 }
 
-.nf {
+.language-css .nf {
   color: #FFB454;
 }
 
-.no {
+.language-css .no {
   color: #ffee80;
 }
 
-.k {
+.language-css .k {
   color: #FF9D00;
 }
 
-.p {
+.language-css .p {
+  color: #e1efff;
+}
+
+.language-css .n {
   color: #ffee80;
 }
 
-.n {
+.language-css .m {
   color: #ffee80;
 }
-
-.m {
-  color: #ffee80;
-}
-/*
-Yellow: #ffc600
-Orange: #FF9D00
-Mint: #2AFFDF
-Blue: #193549
-Off Blue: #0D3A58 (use on variable bgs)
-Dusty Blue: #35434d
-Dark Blue: #15232D
-Pink: #FB94FF
-Light Blue: #9EFFFF
-*/
 
 @media screen and (max-width: 961px) {
   pre.highlight {
