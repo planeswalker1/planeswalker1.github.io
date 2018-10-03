@@ -188,7 +188,7 @@ th {
 .code {
   background-color: #f7f7f9;
   border-radius: 4px;
-  font-size: 90%;
+  font-size: 95%;
   padding: 2px 4px;
 }
 
@@ -354,8 +354,6 @@ p > img {
   color: #ffee80;
 }
 
-@media screen and (max-width: 961px) {
-  pre.highlight {
-    overflow: scroll;
-  }
+pre.highlight {
+  overflow: scroll;
 }

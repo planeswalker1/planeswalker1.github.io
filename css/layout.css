@@ -131,10 +131,6 @@
   .grid--portfolio {
     justify-content: center;
   }
-
-  .highlight {
-    overflow: scroll;
-  }
 }
 
 @media screen and (max-width: 1060px) {
