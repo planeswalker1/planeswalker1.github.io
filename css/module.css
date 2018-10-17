@@ -221,6 +221,7 @@ p > img {
   background-color: #272822;
   font-size: 16px;
   line-height: 1.2;
+  overflow: auto;
   padding: 10px;
 }
 
@@ -230,7 +231,8 @@ p > img {
   font-style: italic;
 }
 
-.language-js .p {
+.language-js .p,
+.language-bash  {
   color: #fff;
 }
 
@@ -282,11 +284,6 @@ p > img {
 }
 
 /* html syntax highlighting */
-.language-html {
-  background-color: #272822;
-  overflow: scroll;
-}
-
 .language-html .nt {
   color: #9EFFFF;
 }
@@ -352,8 +349,4 @@ p > img {
 
 .language-css .m {
   color: #ffee80;
-}
-
-pre.highlight {
-  overflow: scroll;
 }
