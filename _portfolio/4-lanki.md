@@ -2,9 +2,9 @@
 layout: project
 title: Lanki · Daniel Munoz
 imgSrc: lanki.jpg
-imgAlt: a website about an eccomerce business.
+imgAlt: a website about an e-commerce business.
 heading: Lanki
-meta: A website about an eccomerce business.
+meta: A website about an e-commerce business.
 src: https://planeswalker1.github.io/lanki/
 tech: HTML, CSS, javaScript, jQuery
 jekyll: true
