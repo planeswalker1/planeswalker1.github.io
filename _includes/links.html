@@ -1,0 +1,8 @@
+<!-- loop for backlinks -->
+{% for link in site.data.links %}
+  <li>
+    <a class="archive__link" href="{{ link.source }}">
+      <span class="archive__meta">{{ link.date }}</span> - {{ link.header }}
+    </a>
+  </li>
+{% endfor %}

@@ -8,6 +8,25 @@ meta: My blogs mostly related to web development
   <div class="container__post">
     <h1 class="container__heading">Blog</h1>
     <ul class="post__list">
+      <!-- loop for backlinks -->
+      {% for link in site.data.links %}
+        <li class="list__blog">
+          <div>
+            <a href="{{ link.source }}">
+              <img class="link img--post" src="{{ site.baseurl }}/images/{{ link.imgSrc }}" alt="Photo of {{ link.imgAlt }}" class="img--post">
+            </a>
+          </div>
+          <div>
+            <h2>
+              <a class="link blog__a" href="{{ link.source }}">{{ link.header }}</a>
+            </h2>
+            <p class="blog__meta">
+              {{ link.meta }} <a class="link blog__a" href="{{ site.baseurl}}{{post.url}}">Read More</a>
+            </p>
+            <p>{{ link.date }}</p>
+          </div>
+        </li>
+      {% endfor %}
       {% for post in site.posts %}
         <li class="list__blog">
           <div>
@@ -35,11 +54,17 @@ meta: My blogs mostly related to web development
     %}</ul>{% endunless %}
     <h1 class="archive__heading">{{ currentDate }}</h1>
     <ul class="archive__list">
+      <!-- list of backlinks -->
+      {% include links.html %}
       {% assign myDate = currentDate %} {% endif %}
       <li>
         <a class="archive__link" href="{{ site.baseurl }}{{ post.url }}">
-          <span class="archive__meta">{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.header }}</a>
+          <span class="archive__meta">{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.header }}
+        </a>
       </li>
-      {% if forloop.last %}</ul>{% endif %} {% endfor %}
+      {% if forloop.last %}
+      </ul>
+      {% endif %}
+      {% endfor %}
   </section>
 </div>
