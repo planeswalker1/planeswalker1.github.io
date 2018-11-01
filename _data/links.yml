@@ -1,8 +1,14 @@
 -
+  header: Github Remote Repositories
+  source: https://codinglead.github.io/2018/10/31/Github-remote-repositories/
+  imgSrc: git-logo.png
+  imgAlt: the git text logo
+  meta: When we want to publish our code online (save it on the cloud so we can access it from any device), we want to store it in a remote repository. In this blog, we'll dive in to using GitHub to store our code remotely.
+  date: October 31, 2018
+-
   header: Tracking changes with Git
   source: https://codinglead.github.io/2018/10/24/tracking-changes-with-git/
   imgSrc: git-logo.png
   imgAlt: the git text logo
   meta: Now that we know how to setup Git, lets see how we can track changes.
   date: October 24, 2018
-
