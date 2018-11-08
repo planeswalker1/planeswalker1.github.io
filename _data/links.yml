@@ -1,4 +1,12 @@
 -
+  header: GitHub Pages
+  source: https://codinglead.github.io/2018/11/07/GitHub-Pages/
+  imgSrc: git-logo.png
+  imgAlt: the git text logo
+  meta: It’s more fun to make web pages when we can show them off to our friends. There are a lot of ways to put our pages online, GitHub Pages is one way.
+  date: November 07, 2018
+
+-
   header: Github Remote Repositories
   source: https://codinglead.github.io/2018/10/31/Github-remote-repositories/
   imgSrc: git-logo.png
