@@ -1,4 +1,12 @@
 -
+  header: Pseudo Selectors
+  source: https://codinglead.github.io/2018/11/14/css-pseudo-selectors/
+  imgSrc: css-logo.png
+  imgAlt: the CSS3 logo
+  meta: CSS introduces both pseudo-elements and pseudo-classes. A pseudo-element acts like an extra element is in the code. A pseudo-class acts like an extra value for a class attribute.
+  date: November 07, 2018
+
+-
   header: GitHub Pages
   source: https://codinglead.github.io/2018/11/07/GitHub-Pages/
   imgSrc: git-logo.png
