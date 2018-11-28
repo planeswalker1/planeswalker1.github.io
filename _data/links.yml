@@ -1,4 +1,12 @@
 -
+  header: Comparing and Cloning Arrays
+  source: https://codinglead.github.io/javascript/comparing-and-cloning-arrays
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Unlike other data types you might have seen so far, it is not possible to compare two arrays by using the === comparison operator. In JavaScript, two primitive data type values can be equal, but no two arrays are the same, even if they have the same elements inside.
+  date: November 28, 2018
+
+-
   header: Why JavaScript Methods Are Useful
   source: https://codinglead.github.io/javascript/why-javascript-methods-are-useful
   imgSrc: js-logo.png
