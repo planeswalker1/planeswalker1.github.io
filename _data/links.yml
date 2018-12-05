@@ -1,4 +1,12 @@
 -
+  header: Key Concepts In Positioning Elements with CSS
+  source: https://codinglead.github.io/javascript/key-concepts-in-positioning-elements
+  imgSrc: css-logo.png
+  imgAlt: the JavaScript logo
+  meta: CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box. It has the following positioning schemes that allow you to control the layout of a page normal flow, relative positioning, and absolute positioning.
+  date: December 5, 2018
+
+-
   header: Comparing and Cloning Arrays
   source: https://codinglead.github.io/javascript/comparing-and-cloning-arrays
   imgSrc: js-logo.png
