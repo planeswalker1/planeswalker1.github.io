@@ -1,8 +1,15 @@
 -
+  header: The best way to organize JavaScript
+  source: https://codinglead.github.io/javascript/the-best-way-to-organize-javascript
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Let's make sure we understand how to organize our code using the best, most professional practices.
+  date: December 12, 2018
+-
   header: Key Concepts In Positioning Elements with CSS
   source: https://codinglead.github.io/javascript/key-concepts-in-positioning-elements
   imgSrc: css-logo.png
-  imgAlt: the JavaScript logo
+  imgAlt: the css logo
   meta: CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box. It has the following positioning schemes that allow you to control the layout of a page normal flow, relative positioning, and absolute positioning.
   date: December 5, 2018
 
