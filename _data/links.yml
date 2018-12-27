@@ -1,15 +1,32 @@
 -
+  header: Indenting and Spacing in HTML
+  source: https://codinglead.github.io/html/indenting-and-spacing-in-html
+  imgSrc: html5-logo.svg
+  imgAlt: the HTML5 logo
+  meta: Well-written code follows consistent indentation and spacing patterns.  In HTML, inconsistent indentation and spacing will not impact the functionality of a website, but will cause your code to be difficult to read and understand.
+  date: December 26, 2018
+
+-
+  header: Constructors and Prototypes
+  source: https://codinglead.github.io/javascript/object-constructors-and-prototype
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: In this blog, we’re going to explore how JavaScript uses constructors as blueprints for the creation of many new objects, and prototypes for adding methods to objects.
+  date: December 19, 2018
+
+-
   header: The best way to organize JavaScript
   source: https://codinglead.github.io/javascript/the-best-way-to-organize-javascript
   imgSrc: js-logo.png
   imgAlt: the JavaScript logo
   meta: Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Let's make sure we understand how to organize our code using the best, most professional practices.
   date: December 12, 2018
+
 -
   header: Key Concepts In Positioning Elements with CSS
   source: https://codinglead.github.io/javascript/key-concepts-in-positioning-elements
-  imgSrc: css-logo.png
-  imgAlt: the css logo
+  imgSrc: css3-logo.png
+  imgAlt: the CSS3 logo
   meta: CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box. It has the following positioning schemes that allow you to control the layout of a page normal flow, relative positioning, and absolute positioning.
   date: December 5, 2018
 
@@ -32,7 +49,7 @@
 -
   header: Pseudo Selectors
   source: https://codinglead.github.io/css/css-pseudo-selectors
-  imgSrc: css-logo.png
+  imgSrc: css3-logo.png
   imgAlt: the CSS3 logo
   meta: CSS introduces both pseudo-elements and pseudo-classes. A pseudo-element acts like an extra element is in the code. A pseudo-class acts like an extra value for a class attribute.
   date: November 14, 2018
