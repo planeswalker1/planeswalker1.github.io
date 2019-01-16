@@ -67,6 +67,10 @@
 }
 
 /* blog styles */
+.img--svg {
+  height: 300px;
+}
+
 .img--post {
  width: 300px;
 }
