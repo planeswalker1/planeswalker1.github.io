@@ -1,4 +1,13 @@
 -
+  header: What Is BEM
+  source: https://codinglead.github.io/css/what-is-bem
+  imgSrc: css3-logo.svg
+  imgAlt: the CSS3 logo
+  meta: Keeping track of every single HTML element might become difficult. There’s this CSS naming convention called block element modifier, also known as BEM. What it means is there are three different CSS classes of tags.
+  date: February 06, 2019
+  class: "img--svg"
+
+-
   header: Indenting and Spacing in HTML
   source: https://codinglead.github.io/html/indenting-and-spacing-in-html
   imgSrc: html5-logo.svg
