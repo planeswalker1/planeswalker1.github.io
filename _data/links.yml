@@ -1,4 +1,12 @@
 -
+  header: What is Authentication and Web Tokens
+  source: https://codinglead.github.io/javascript/what-is-authentication-and-web-tokens
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: When requests to a web sever come in you have this process called authentication that lets the server figure out exactly who made that request.
+  date: February 13, 2019
+
+-
   header: What Is BEM
   source: https://codinglead.github.io/css/what-is-bem
   imgSrc: css3-logo.svg
