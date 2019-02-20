@@ -1,4 +1,12 @@
 -
+  header: Destructuring Assignment
+  source: https://codinglead.github.io/javascript/destructuring-assignment
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: JavaScript has destructuring asssignment that makes it possible to assign multiple variables to elements of an array or properties of an object. It is very useful when you are trying to assign multiple variables to values of an array or object
+  date: February 20, 2019
+
+-
   header: What is Authentication and Web Tokens
   source: https://codinglead.github.io/javascript/what-is-authentication-and-web-tokens
   imgSrc: js-logo.png
