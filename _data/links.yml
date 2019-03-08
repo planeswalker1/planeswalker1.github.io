@@ -1,4 +1,12 @@
 -
+  header: Block and Inline Elements in HTML
+  source: https://codinglead.github.io/html/block-and-inline-elements
+  imgSrc: html5-logo.svg
+  imgAlt: the HTML5 logo
+  meta: HTML Block elements are elements that when displayed start on a line of their own, in effect making a block on the page. Inline elements do not appear on their own line, but share a line with other inline elements.
+  date: March 07, 2019
+  
+-
   header: Divs and spans in HTML
   source: https://codinglead.github.io/html/divs-and-spans
   imgSrc: html5-logo.svg
