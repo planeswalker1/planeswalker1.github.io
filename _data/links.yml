@@ -1,10 +1,18 @@
 -
+  header: Re-writing A Git Commit
+  source: https://codinglead.github.io/github/rewriting-a-git-commit
+  imgSrc: github-logo.png
+  imgAlt: the GitHub logo
+  meta: We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Git has several options to re-write git history, including a git commit.
+  date: March 13, 2019
+  
+-
   header: Block and Inline Elements in HTML
   source: https://codinglead.github.io/html/block-and-inline-elements
   imgSrc: html5-logo.svg
   imgAlt: the HTML5 logo
   meta: HTML Block elements are elements that when displayed start on a line of their own, in effect making a block on the page. Inline elements do not appear on their own line, but share a line with other inline elements.
-  date: March 07, 2019
+  date: March 06, 2019
   
 -
   header: Divs and spans in HTML
