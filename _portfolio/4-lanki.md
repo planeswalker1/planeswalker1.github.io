@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Lanki · Daniel Munoz
+slug: lanki
 imgSrc: lanki.jpg
 imgAlt: a website about an e-commerce business.
 heading: Lanki

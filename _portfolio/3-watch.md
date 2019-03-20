@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Lanki · Daniel Munoz
+slug: watch
 imgSrc: watch.jpg
 imgAlt: a website about music
 heading: Watch

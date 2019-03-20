@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Color Game · Daniel Munoz
+slug: color game
 imgSrc: color-game.jpg
 imgAlt: a matching color game website.
 heading: Color Game

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Lucas · Daniel Munoz
+slug: lucas
 imgSrc: lucas.jpg
 imgAlt: a website about an eccomerce business.
 heading: Lucas

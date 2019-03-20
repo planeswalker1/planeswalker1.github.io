@@ -5,7 +5,6 @@
   imgAlt: the GitHub logo
   meta: We always want to include clear and detailed messages with our commits. However, even the most careful developers can make mistakes. Git has several options to re-write git history, including a git commit.
   date: March 13, 2019
-
 -
   header: Block and Inline Elements in HTML
   source: https://codinglead.github.io/html/block-and-inline-elements

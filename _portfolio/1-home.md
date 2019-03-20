@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Home Page · Daniel Munoz
+slug: home page
 imgSrc: site.jpg
 imgAlt: my old home page
 heading: Old Home Page

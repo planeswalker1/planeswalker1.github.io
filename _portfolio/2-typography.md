@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Typography · Daniel Munoz
+slug: typography
 imgSrc: font.jpg
 imgAlt: a website about typography.
 heading: Typography
