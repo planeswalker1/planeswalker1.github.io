@@ -1,4 +1,12 @@
 -
+  header: Re-writing Git History
+  source: https://codinglead.github.io/github/rewriting-git-history
+  imgSrc: github-logo.png
+  imgAlt: the GitHub logo
+  meta: git commit --amend is an easy way to modify the most recent commit, but if we need to modify history going further back then we’ll need to use the git rebase -i command.
+  date: March 20, 2019
+
+-
   header: Re-writing A Git Commit
   source: https://codinglead.github.io/github/rewriting-a-git-commit
   imgSrc: github-logo.png
@@ -12,7 +20,7 @@
   imgAlt: the HTML5 logo
   meta: HTML Block elements are elements that when displayed start on a line of their own, in effect making a block on the page. Inline elements do not appear on their own line, but share a line with other inline elements.
   date: March 06, 2019
-  
+
 -
   header: Divs and spans in HTML
   source: https://codinglead.github.io/html/divs-and-spans
@@ -20,7 +28,7 @@
   imgAlt: the HTML5 logo
   meta: Classes are great for selectively applying styles to certain parts of your web pages. But sometimes you’ll have entire sections of your pages that you want to style a certain way, and adding a style to every tag gets annoying. Divs and spans can help.
   date: February 27, 2019
-  
+
 -
   header: Destructuring Assignment
   source: https://codinglead.github.io/javascript/destructuring-assignment
