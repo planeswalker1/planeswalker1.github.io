@@ -1,4 +1,12 @@
 -
+  header: Labels in HTML
+  source: https://codinglead.github.io/html/labels-in-html
+  imgSrc: html5-logo.svg
+  imgAlt: the HTML5 logo
+  meta: Labels are great for describing what a form input is for. Learn how and why to use labels.
+  date: March 27, 2019
+
+-
   header: Re-writing Git History
   source: https://codinglead.github.io/github/rewriting-git-history
   imgSrc: github-logo.png
