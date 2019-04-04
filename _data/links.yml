@@ -1,18 +1,18 @@
 -
+  header: Re-writing Git History
+  source: https://codinglead.github.io/github/rewriting-git-history
+  imgSrc: github-logo.png
+  imgAlt: the GitHub logo
+  meta: git commit --amend is an easy way to modify the most recent commit, but if we need to modify history going further back then we’ll need to use the git rebase -i command.
+  date: April 03, 2019
+
+-
   header: Labels in HTML
   source: https://codinglead.github.io/html/labels-in-html
   imgSrc: html5-logo.svg
   imgAlt: the HTML5 logo
   meta: Labels are great for describing what a form input is for. Learn how and why to use labels.
   date: March 27, 2019
-
--
-  header: Re-writing Git History
-  source: https://codinglead.github.io/github/rewriting-git-history
-  imgSrc: github-logo.png
-  imgAlt: the GitHub logo
-  meta: git commit --amend is an easy way to modify the most recent commit, but if we need to modify history going further back then we’ll need to use the git rebase -i command.
-  date: March 20, 2019
 
 -
   header: Re-writing A Git Commit
