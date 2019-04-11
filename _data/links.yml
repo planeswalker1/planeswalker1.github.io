@@ -1,4 +1,12 @@
 -
+  header: Responsive Images in HTML
+  source: https://codinglead.github.io/html/responsive-images-in-html
+  imgSrc: html5-logo.svg
+  imgAlt: the HTML5 logo
+  meta: In this blog I’ll introduce the concept of responsive images, images that work well on devices with widely differing screen sizes, and resolutions, and how to implement them on the web using the picture element and srcset attribute.
+  date: April 10, 2019
+
+-
   header: Re-writing Git History
   source: https://codinglead.github.io/github/rewriting-git-history
   imgSrc: github-logo.png
