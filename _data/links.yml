@@ -1,4 +1,12 @@
 -
+  header: Rest Operator In JavaScript
+  source: https://codinglead.github.io/javascript/rest-operator-in-js
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: The rest operator actually uses the same syntax as the spread operator. It's usage determines whether you're using it as the spread or rest operator. 
+  date: April 17, 2019
+
+-
   header: Responsive Images in HTML
   source: https://codinglead.github.io/html/responsive-images-in-html
   imgSrc: html5-logo.svg
