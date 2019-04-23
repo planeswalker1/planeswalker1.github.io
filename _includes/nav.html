@@ -1,13 +1,51 @@
 <nav class="header__nav">
     <p class="nav__heading--header"><strong>Daniel Munoz</strong></p>
+    
     <ul class="nav__list--header">
+      {% if page.url == '/' %}
+        <li class="nav__item--header active">
+          <span class="nav__link--header active--link">Home</span>
+        </li>
+      {% else %}
+        <li class="nav__item--header">
+          <a class="nav__link--header"
+            href="{{ site.baseurl }}/">Home</a>
+        </li>
+      {% endif %}
 
-      <li class="nav__item--header {% if page.url == '/'%}active{% endif %}"><a class="nav__link--header {% if page.url == '/'%}active--link{% endif %}" href="{{ site.baseurl }}/">Home</a></li>
+      {% if page.url == '/portfolio/' %}
+        <li class="nav__item--header active">
+          <span class="nav__link--header active--link">Portfolio</span>
+        </li>
+      {% else %}
+        <li class="nav__item--header">
+          <a class="nav__link--header"
+            href="{{ site.baseurl }}/portfolio/">Portfolio</a>
+        </li>
+      {% endif %}
 
-      <li class="nav__item--header {% if page.url contains '/portfolio/'%}active{% endif %}"><a class="nav__link--header {% if page.url contains '/portfolio/'%}active--link{% endif %}" href="{{ site.baseurl }}/portfolio/">Portfolio</a></li>
+      {% if page.url == '/blog/' %}
+        <li class="nav__item--header active">
+          <span class="nav__link--header active--link"
+            href="{{ site.baseurl }}/blog/">Blog</span>
+        </li>
+      {% else %}
+        <li class="nav__item--header">
+          <a class="nav__link--header"
+            href="{{ site.baseurl }}/blog/">Blog</a>
+        </li>
+      {% endif %}
 
-      <li class="nav__item--header {% if page.url contains '/blog/' or page.url contains '2018'%}active{% endif %}"><a class="nav__link--header {% if page.url contains '/blog/' or page.url contains '2018'%}active--link{% endif %}" href="{{ site.baseurl }}/blog/">Blog</a></li>
+      {% if page.url == '/contact/' %}
+        <li class="nav__item--header active">
+          <span class="nav__link--header active--link">Contact</a>
+        </li>
+      {% else %}
+        <li class="nav__item--header">
+          <a class="nav__link--header"
+            href="{{ site.baseurl }}/contact/">Contact</a>
+        </li>
+      {% endif %}
 
-      <li class="nav__item--header {% if page.url == '/contact/'%}active{% endif %}"><a class="nav__link--header {% if page.url == '/contact/'%}active--link{% endif %}" href="{{ site.baseurl }}/contact/">Contact</a></li>
     </ul>
   </nav>

@@ -13,17 +13,9 @@ layout: default
 
   <h2>Built With</h2>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    {% if page.jekyll %}
-      <li>Jekyll</li>
-    {% endif %}
-    {% if page.javaScript %}
-      <li>javaScript</li>
-    {% endif %}
-    {% if page.library %}
-      <li>{{ page.library }}</li>
-    {% endif %}
+    {% for source in page.sources %}
+      <li>{{ source }}</li>
+    {% endfor %}
   </ul>
 
   <h2>Challenges</h2>
@@ -31,5 +23,6 @@ layout: default
 
   <div class="btn-container">
     <a class="btn" href="{{ page.src }}">View Project</a>
+    <a class="btn" href="{{ page.srcCode }}">View Code</a>
   </div>
 </div>

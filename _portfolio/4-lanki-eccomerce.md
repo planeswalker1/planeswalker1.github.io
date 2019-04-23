@@ -7,11 +7,14 @@ imgAlt: a website about an e-commerce business.
 heading: Lanki
 meta: A website about an e-commerce business.
 src: https://planeswalker1.github.io/lanki/
-tech: HTML, CSS, javaScript, jQuery
-jekyll: true
-javaScript: true
-library: jQuery
-time: May 2018
+srcCode: https://github.com/planeswalker1/lanki
+tech: HTML, CSS, JavaScript, jQuery
+sources: 
+  - HTML
+  - CSS
+  - JavaScript
+  - jQuery
+time: August 2018
 ---
 
 There where 3 main problems that I had when making this website.

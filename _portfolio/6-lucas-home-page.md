@@ -3,12 +3,16 @@ layout: project
 title: Lucas · Daniel Munoz
 slug: lucas
 imgSrc: lucas.jpg
-imgAlt: a website about an eccomerce business.
+imgAlt: a website about Lucas, a super smash bros. character.
 heading: Lucas
 meta: A website about Lucas, a super smash bros. character.
 src: https://planeswalker1.github.io/lucas/
+srcCode: https://github.com/planeswalker1/lucas
 tech: HTML, CSS, Jekyll
-jekyll: true
+sources: 
+  - HTML
+  - CSS
+  - Jekyll
 time: July 2017
 ---
 

@@ -1,19 +1,22 @@
 ---
 layout: project
-title: Lanki · Daniel Munoz
+title: Watch · Daniel Munoz
 slug: watch
 imgSrc: watch.jpg
-imgAlt: a website about music
+imgAlt: a website that can play music
 heading: Watch
-meta: A website about music.
+meta: A website that can play music
 src: https://planeswalker1.github.io/watch/
-tech: HTML, CSS, Jekyll, javaScript, Tilt.js
-jekyll: true
-javaScript: true
-library: Tilt.js
+srcCode: https://github.com/planeswalker1/watch
+tech: HTML, CSS, Jekyll, JavaScript, Tilt.js
+sources: 
+  - HTML
+  - CSS
+  - Jekyll
+  - JavaScript
+  - Tilt.js
 time: May 2018
 ---
-
 There where 2 main problems that I had when making this website.
 
 They where:

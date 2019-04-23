@@ -3,13 +3,17 @@ layout: project
 title: Home Page · Daniel Munoz
 slug: home page
 imgSrc: site.jpg
-imgAlt: my old home page
+imgAlt: my old website home page
 heading: Old Home Page
-meta: My old home page.
+meta: My old website home page.
 src: https://planeswalker1.github.io/old-main/
+srcCode: https://github.com/planeswalker1/old-main
 tech: HTML, CSS, Jekyll
-jekyll: true
-time: July 2018
+sources: 
+  - HTML
+  - CSS
+  - Jekyll
+time: August 2018
 ---
 
 There where 3 main problems that I had when making this website.
