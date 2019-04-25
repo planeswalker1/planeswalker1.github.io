@@ -1,4 +1,13 @@
 -
+  header: Indenting and Spacing in HTML
+  source: https://codinglead.github.io/html/indenting-and-spacing-in-html
+  imgSrc: html5-logo.svg
+  imgAlt: the HTML5 logo
+  meta: Well-written code follows consistent indentation and spacing patterns.  In HTML, inconsistent indentation and spacing will not impact the functionality of a website, but will cause your code to be difficult to read and understand.
+  date: April 24, 2019
+  class: "img--svg"
+
+-
   header: Rest Operator In JavaScript
   source: https://codinglead.github.io/javascript/rest-operator-in-js
   imgSrc: js-logo.png
@@ -76,15 +85,6 @@
   imgAlt: the CSS3 logo
   meta: Keeping track of every single HTML element might become difficult. There’s this CSS naming convention called block element modifier, also known as BEM. What it means is there are three different CSS classes of tags.
   date: February 06, 2019
-  class: "img--svg"
-
--
-  header: Indenting and Spacing in HTML
-  source: https://codinglead.github.io/html/indenting-and-spacing-in-html
-  imgSrc: html5-logo.svg
-  imgAlt: the HTML5 logo
-  meta: Well-written code follows consistent indentation and spacing patterns.  In HTML, inconsistent indentation and spacing will not impact the functionality of a website, but will cause your code to be difficult to read and understand.
-  date: December 26, 2018
   class: "img--svg"
 
 -
