@@ -1,4 +1,13 @@
 -
+  header: What is the CSS Box Model
+  source: https://codinglead.github.io/css/what-is-the-css-box-model
+  imgSrc: css3-logo.svg
+  imgAlt: the CSS3 logo
+  meta: Each element on a web page takes up space, and the box model describes the space around the element.
+  date: May 01, 2019
+  class: "img--svg"
+
+-
   header: Indenting and Spacing in HTML
   source: https://codinglead.github.io/html/indenting-and-spacing-in-html
   imgSrc: html5-logo.svg
