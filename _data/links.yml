@@ -1,11 +1,18 @@
 -
+  header: The Importance of DRY Code
+  source: https://codinglead.github.io/javascript/the-importance-of-DRY-code
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: There’s a principle in programming called DRY, or Don’t Repeat Yourself. It usually means refactoring code by taking something done several times and turning it into a loop or a function.
+  date: May 08, 2019
+
+-
   header: What is the CSS Box Model
   source: https://codinglead.github.io/css/what-is-the-css-box-model
   imgSrc: css3-logo.svg
   imgAlt: the CSS3 logo
   meta: Each element on a web page takes up space, and the box model describes the space around the element.
   date: May 01, 2019
-  class: "img--svg"
 
 -
   header: Indenting and Spacing in HTML
@@ -14,7 +21,6 @@
   imgAlt: the HTML5 logo
   meta: Well-written code follows consistent indentation and spacing patterns.  In HTML, inconsistent indentation and spacing will not impact the functionality of a website, but will cause your code to be difficult to read and understand.
   date: April 24, 2019
-  class: "img--svg"
 
 -
   header: Rest Operator In JavaScript
