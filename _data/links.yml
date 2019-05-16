@@ -1,4 +1,12 @@
 -
+  header: JavaScript Objects
+  source: https://codinglead.github.io/javascript/javascript-objects
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Objects are containers that encapsulate data, meaning all of the relevant data and functions for the thing that the variable name represents are kept together in a “capsule”, better known as an object that can be created and manipulated in programs as a single unit.
+  date: May 15, 2019
+
+-
   header: The Importance of DRY Code
   source: https://codinglead.github.io/javascript/the-importance-of-DRY-code
   imgSrc: js-logo.png
