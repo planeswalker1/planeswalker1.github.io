@@ -1,4 +1,12 @@
 -
+  header: When to use let and const
+  source: https://codinglead.github.io/javascript/when-to-use-let-and-const
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: To understand why let and const were added, it’s probably best to look at an example of when using var can get tricky. 
+  date: May 22, 2019
+
+-
   header: JavaScript Objects
   source: https://codinglead.github.io/javascript/javascript-objects
   imgSrc: js-logo.png
