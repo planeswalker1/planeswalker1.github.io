@@ -1,4 +1,12 @@
 -
+  header: JavaScript Primitives
+  source: https://codinglead.github.io/javascript/javascript-primitives
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Numbers, strings, booleans, undefined, null are 5 out of the 6 primitives, or basic data types. The other one is symbol, which represents an identifier for object properties.
+  date: May 29, 2019
+
+-
   header: When to use let and const
   source: https://codinglead.github.io/javascript/when-to-use-let-and-const
   imgSrc: js-logo.png
