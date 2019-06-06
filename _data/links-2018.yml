@@ -1,0 +1,74 @@
+-
+  header: Constructors and Prototypes
+  source: https://codinglead.github.io/javascript/object-constructors-and-prototype
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: In this blog, we’re going to explore how JavaScript uses constructors as blueprints for the creation of many new objects, and prototypes for adding methods to objects.
+  date: December 19, 2018
+
+-
+  header: The best way to organize JavaScript
+  source: https://codinglead.github.io/javascript/the-best-way-to-organize-javascript
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Let's make sure we understand how to organize our code using the best, most professional practices.
+  date: December 12, 2018
+
+-
+  header: Key Concepts In Positioning Elements with CSS
+  source: https://codinglead.github.io/javascript/key-concepts-in-positioning-elements
+  imgSrc: css3-logo.svg
+  imgAlt: the CSS3 logo
+  meta: CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box. It has the following positioning schemes that allow you to control the layout of a page normal flow, relative positioning, and absolute positioning.
+  date: December 5, 2018
+  class: "img--svg"
+
+
+-
+  header: Comparing and Cloning Arrays
+  source: https://codinglead.github.io/javascript/comparing-and-cloning-arrays
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Unlike other data types you might have seen so far, it is not possible to compare two arrays by using the === comparison operator. In JavaScript, two primitive data type values can be equal, but no two arrays are the same, even if they have the same elements inside.
+  date: November 28, 2018
+
+-
+  header: Why JavaScript Methods Are Useful
+  source: https://codinglead.github.io/javascript/why-javascript-methods-are-useful
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: You can think of a method as an action that a number, string or object can perform or have taken on it.
+  date: November 21, 2018
+
+-
+  header: Pseudo Selectors
+  source: https://codinglead.github.io/css/css-pseudo-selectors
+  imgSrc: css3-logo.svg
+  imgAlt: the CSS3 logo
+  meta: CSS introduces both pseudo-elements and pseudo-classes. A pseudo-element acts like an extra element is in the code. A pseudo-class acts like an extra value for a class attribute.
+  date: November 14, 2018
+  class: "img--svg"
+
+-
+  header: GitHub Pages
+  source: https://codinglead.github.io/github/GitHub-Pages
+  imgSrc: git-logo.png
+  imgAlt: the git text logo
+  meta: It’s more fun to make web pages when we can show them off to our friends. There are a lot of ways to put our pages online, GitHub Pages is one way.
+  date: November 07, 2018
+
+-
+  header: Github Remote Repositories
+  source: https://codinglead.github.io/github/Github-remote-repositories
+  imgSrc: git-logo.png
+  imgAlt: the git text logo
+  meta: When we want to publish our code online (save it on the cloud so we can access it from any device), we want to store it in a remote repository. In this blog, we'll dive in to using GitHub to store our code remotely.
+  date: October 31, 2018
+
+-
+  header: Tracking changes with Git
+  source: https://codinglead.github.io/github/tracking-changes-with-git
+  imgSrc: git-logo.png
+  imgAlt: the git text logo
+  meta: Now that we know how to setup Git, lets see how we can track changes.
+  date: October 24, 2018

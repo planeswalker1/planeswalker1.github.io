@@ -51,24 +51,26 @@ changefreq: weekly
 
   <!-- archive -->
   <section class="archive">
-    {% for post in site.posts %} {% assign currentDate = post.date | date: "%Y" %} {% if currentDate != myDate %} {% unless forloop.first
-    %}</ul>{% endunless %}
-    <h1 class="archive__heading">2019</h1>
+    <h2 class="archive__heading">2019</h2>
     <ul class="archive__list">
-      <!-- list of backlinks -->
-      {% include links.html %}
-    </ul>
-    <h1 class="archive__heading">{{ currentDate }}</h1>
-    <ul class="archive__list">
-      {% assign myDate = currentDate %} {% endif %}
+      <!-- loop for backlinks -->
+      {% for link in site.data.links-2019 %}
       <li>
-        <a class="archive__link" href="{{ site.baseurl }}{{ post.url }}">
-          <span class="archive__meta">{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.header }}
+        <a class="archive__link" href="{{ link.source }}">
+          <span class="archive__meta">{{ link.date }}</span> - {{ link.header }}
         </a>
       </li>
-      {% if forloop.last %}
-      </ul>
-      {% endif %}
       {% endfor %}
+    </ul>
+    <h2 class="archive__heading">2018</h2>
+    <ul class="archive__list">
+      {% for link in site.data.links-2018 %}
+      <li>
+        <a class="archive__link" href="{{ link.source }}">
+          <span class="archive__meta">{{ link.date }}</span> - {{ link.header }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
 </div>
