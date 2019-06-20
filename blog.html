@@ -28,24 +28,6 @@ changefreq: weekly
           </div>
         </li>
       {% endfor %}
-      {% for post in site.posts %}
-        <li class="list__blog">
-          <div>
-            <a href="{{ site.baseurl}}{{post.url}}">
-              <img class="link img--post" src="{{ site.baseurl }}/images/{{ post.imgSrc }}" alt="Photo of {{ post.imgAlt }}" class="img--post">
-            </a>
-          </div>
-          <div>
-            <h2>
-              <a class="link blog__a" href="{{ site.baseurl}}{{post.url}}">{{ post.header }}</a>
-            </h2>
-            <p class="blog__meta">
-              {{ post.meta }} <a class="link blog__a" href="{{ site.baseurl}}{{post.url}}">Read More</a>
-            </p>
-            <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-          </div>
-        </li>
-      {% endfor %}
     </ul>
   </div>
 

@@ -1,11 +1,19 @@
 -
+  header: What is Authentication and Web Tokens
+  source: https://codinglead.github.io/javascript/what-is-authentication-and-web-tokens
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: When requests to a web sever come in you have this process called authentication that lets the server figure out exactly who made that request.
+  date: June 19, 2019
+
+-
   header: What Is BEM
   source: https://codinglead.github.io/css/what-is-bem
   imgSrc: css3-logo.svg
   imgAlt: the CSS3 logo
   meta: Keeping track of every single HTML element might become difficult. There’s this CSS naming convention called block element modifier, also known as BEM. What it means is there are three different CSS classes of tags.
   date: June 12, 2019
-  class: "img--svg"
+
 -
   header: How to add mongod to the command prompt in windows 10
   source: https://codinglead.github.io/javascript/setting-environment-variables-in-windows-10
@@ -124,11 +132,3 @@
   imgAlt: the JavaScript logo
   meta: JavaScript has destructuring asssignment that makes it possible to assign multiple variables to elements of an array or properties of an object. It is very useful when you are trying to assign multiple variables to values of an array or object
   date: February 20, 2019
-
--
-  header: What is Authentication and Web Tokens
-  source: https://codinglead.github.io/javascript/what-is-authentication-and-web-tokens
-  imgSrc: js-logo.png
-  imgAlt: the JavaScript logo
-  meta: When requests to a web sever come in you have this process called authentication that lets the server figure out exactly who made that request.
-  date: February 13, 2019
