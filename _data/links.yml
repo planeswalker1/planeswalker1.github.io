@@ -1,4 +1,12 @@
 -
+  header: Media Queries and Responsive Design
+  source: https://codinglead.github.io/css/media-queries-and-responsive-design
+  imgSrc: css3-logo.svg
+  imgAlt: the CSS3 logo
+  meta: Styling your site to look different depending on the size of a screen it is being viewed on is known as responsive web design. In web design, the screen being used to view a site is commonly referred to as a viewport.
+  date: June 26, 2019
+
+-
   header: What is Authentication and Web Tokens
   source: https://codinglead.github.io/javascript/what-is-authentication-and-web-tokens
   imgSrc: js-logo.png
