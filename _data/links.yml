@@ -1,4 +1,12 @@
 -
+  header: Rest Operator In JavaScript
+  source: https://codinglead.github.io/javascript/rest-operator-in-js
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: The rest operator actually uses the same syntax as the spread operator. It's usage determines whether you're using it as the spread or rest operator. 
+  date: July 03, 2019
+
+-
   header: Media Queries and Responsive Design
   source: https://codinglead.github.io/css/media-queries-and-responsive-design
   imgSrc: css3-logo.svg
@@ -77,14 +85,6 @@
   imgAlt: the HTML5 logo
   meta: Well-written code follows consistent indentation and spacing patterns.  In HTML, inconsistent indentation and spacing will not impact the functionality of a website, but will cause your code to be difficult to read and understand.
   date: April 24, 2019
-
--
-  header: Rest Operator In JavaScript
-  source: https://codinglead.github.io/javascript/rest-operator-in-js
-  imgSrc: js-logo.png
-  imgAlt: the JavaScript logo
-  meta: The rest operator actually uses the same syntax as the spread operator. It's usage determines whether you're using it as the spread or rest operator. 
-  date: April 17, 2019
 
 -
   header: Responsive Images in HTML
