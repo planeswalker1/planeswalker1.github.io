@@ -1,4 +1,12 @@
 -
+  header: Comparing and Cloning Arrays in JavaScript
+  source: https://codinglead.github.io/javascript/comparing-and-cloning-arrays-in-JavaScript
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Unlike other data types you might have seen so far, it is not possible to correctly compare two arrays by using the === or == comparison operator. Two primitive data type values can be equal, but no two arrays are the same, even if they have the same elements inside.
+  date: July 17, 2019
+
+-
   header: Key Concepts In Positioning Elements with CSS
   source: https://codinglead.github.io/css/key-concepts-in-positioning-elements
   imgSrc: css3-logo.svg
@@ -165,14 +173,6 @@
   imgAlt: the JavaScript logo
   meta: Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Let's make sure we understand how to organize our code using the best, most professional practices.
   date: December 12, 2018
-
--
-  header: Comparing and Cloning Arrays
-  source: https://codinglead.github.io/javascript/comparing-and-cloning-arrays
-  imgSrc: js-logo.png
-  imgAlt: the JavaScript logo
-  meta: Unlike other data types you might have seen so far, it is not possible to compare two arrays by using the === comparison operator. In JavaScript, two primitive data type values can be equal, but no two arrays are the same, even if they have the same elements inside.
-  date: November 28, 2018
 
 -
   header: Why JavaScript Methods Are Useful
