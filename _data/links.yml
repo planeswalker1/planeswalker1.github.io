@@ -1,4 +1,12 @@
 -
+  header: What is DRY Code
+  source: https://codinglead.github.io/javascript/what-is-DRY-code
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: There's a principle in programming called DRY, or Don't Repeat Yourself. It usually means refactoring code by taking something done several times and turning it into a loop or a function.
+  date: July 24, 2019
+
+-
   header: Comparing and Cloning Arrays in JavaScript
   source: https://codinglead.github.io/javascript/comparing-and-cloning-arrays-in-JavaScript
   imgSrc: js-logo.png
@@ -78,14 +86,6 @@
   imgAlt: the JavaScript logo
   meta: Objects are containers that encapsulate data, meaning all of the relevant data and functions for the thing that the variable name represents are kept together in a “capsule”, better known as an object that can be created and manipulated in programs as a single unit.
   date: May 15, 2019
-
--
-  header: The Importance of DRY Code
-  source: https://codinglead.github.io/javascript/the-importance-of-DRY-code
-  imgSrc: js-logo.png
-  imgAlt: the JavaScript logo
-  meta: There’s a principle in programming called DRY, or Don’t Repeat Yourself. It usually means refactoring code by taking something done several times and turning it into a loop or a function.
-  date: May 08, 2019
 
 -
   header: What is the CSS Box Model
