@@ -1,4 +1,12 @@
 -
+  header: What is Destructuring Assignment
+  source: https://codinglead.github.io/javascript/what-is-destructuring-assignment
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Destructuring assignment is a special JavaScript syntax that makes it possible to assign multiple variables to elements of an array or properties of an object. It is very useful when you are trying to assign multiple variables or get values of an array and/or object.
+  date: August 07, 2019
+
+-
   header: Labels in HTML
   source: https://codinglead.github.io/html/labels-in-html
   imgSrc: html5-logo.svg
@@ -149,14 +157,6 @@
   imgAlt: the HTML5 logo
   meta: Classes are great for selectively applying styles to certain parts of your web pages. But sometimes you’ll have entire sections of your pages that you want to style a certain way, and adding a style to every tag gets annoying. Divs and spans can help.
   date: February 27, 2019
-
--
-  header: Destructuring Assignment
-  source: https://codinglead.github.io/javascript/destructuring-assignment
-  imgSrc: js-logo.png
-  imgAlt: the JavaScript logo
-  meta: JavaScript has destructuring asssignment that makes it possible to assign multiple variables to elements of an array or properties of an object. It is very useful when you are trying to assign multiple variables to values of an array or object
-  date: February 20, 2019
 
 -
   header: Constructors and Prototypes
