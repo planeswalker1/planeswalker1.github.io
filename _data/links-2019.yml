@@ -1,4 +1,12 @@
 -
+  header: The best way to organize JavaScript
+  source: https://codinglead.github.io/javascript/the-best-way-to-organize-javascript
+  imgSrc: js-logo.png
+  imgAlt: the JavaScript logo
+  meta: Well-organized code can be easier to debug, and easier to revisit later. Let's make sure we understand how to organize our code using the best practices.
+  date: August 14, 2019
+
+-
   header: What is Destructuring Assignment
   source: https://codinglead.github.io/javascript/what-is-destructuring-assignment
   imgSrc: js-logo.png

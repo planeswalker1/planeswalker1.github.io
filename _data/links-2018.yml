@@ -7,14 +7,6 @@
   date: December 19, 2018
 
 -
-  header: The best way to organize JavaScript
-  source: https://codinglead.github.io/javascript/the-best-way-to-organize-javascript
-  imgSrc: js-logo.png
-  imgAlt: the JavaScript logo
-  meta: Well-organized code is easier to debug, it appears more professional, and is easier to revisit later. Let's make sure we understand how to organize our code using the best, most professional practices.
-  date: December 12, 2018
-
--
   header: Why JavaScript Methods Are Useful
   source: https://codinglead.github.io/javascript/why-javascript-methods-are-useful
   imgSrc: js-logo.png
