@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Daniel Munoz - Front End Web Developer - Long Beach, California
-meta: Hi my name is Daniel Munoz. I am a programmer from Long Beach, California that focuses in the Front End of Web Development. I like to make websites with HTML, CSS and javaScript. My goal is to offer tailored online solutions.
+title: Daniel Munoz - Front End Web Developer
+main-class: main--portfolio
+meta: Hi my name is Daniel Munoz. I am a programmer that focuses in the Front End of Web Development. I like to make websites with HTML, CSS and javaScript. My goal is to offer tailored online solutions.
 priority: 1
 ---
 
-<div class="main__container main__container--med">
-  <h2 class="container__heading">Hi.</h2>
-  <p>Welcome to my portfolio.</p>
 
-  <h2>About Me</h2>
+<div class="main__container">
+  <h2 class="container__heading">Hi.</h2>
   <p>
     My name is Daniel.
     I am currently developing projects with HTML, CSS, and JavaScript.
@@ -21,13 +20,24 @@ priority: 1
   <div class="btn-container">
     <a class="btn" href="{{ site.baseurl }}/daniel-munoz-resume.pdf">Download Resume (PDF)</a>
   </div>
-  <h2>Skills</h2>
-  <ul class="web">
-      <li class="web__list">{% include svg/html5.svg %} HTML</li>
-      <li class="web__list">{% include svg/css3.svg %} CSS</li>
-      <li class="web__list">{% include svg/javascript.svg %} javaScript</li>
-      <li class="web__list">{% include svg/jekyll.svg %} Jekyll</li>
-      <li class="web__list">{% include svg/git.svg %} Git</li>
-      <li class="web__list">{% include svg/github.svg %} Github</li>
-  </ul>
+    <h2 class="container__heading">Front End Projects</h2>
+    <div class="grid--portfolio">
+      {% for project in site.portfolio %}
+        <div class="grid__item">
+          <a href="{{ site.baseurl }}{{ project.url }}"><img class="item__image" src="{{ site.baseurl }}/images/{{ project.imgSrc }}" alt="Photo of {{ project.imgAlt }}"></a>
+          <div class="item__content">
+              <h4>{{ project.heading }}</h4>
+              <p class="item__meta">{{ project.meta }}</p>
+              <p>{{ project.tech}}</p>
+              <div class="item__flex">
+                <div>
+                  <a class="btn btn--small" href="{{ site.baseurl }}{{ project.url }}">View Project</a>
+                </div>
+                <p>{{ project.time }}</p>
+              </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
 </div>
+
